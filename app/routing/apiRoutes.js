@@ -17,8 +17,9 @@ Your apiRoutes.js file should contain two routes:
 // This data is only persistent until the server is restarted
 var friendData = require("../data/friends.js");
 
-console.log(friendData);
-// var connection = require("../config/connection");
+// testing 
+// console.log(friendData);
+
 
 
 // ===============================================================================
@@ -26,6 +27,7 @@ console.log(friendData);
 // ===============================================================================
 
 module.exports = function(app) {
+  
   // API GET Requests
   // ---------------------------------------------------------------------------
 
@@ -36,10 +38,8 @@ module.exports = function(app) {
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
-  // In each of the below cases, when a user submits form data (a JSON object)
-  // ...the JSON is pushed to the appropriate JavaScript array
-  // (ex. User fills out a friend finder survey... this data is then sent to the server...
-  // Then the server saves the data to the friendData array)
+  // when a user submits form data (a JSON object) it's then compared to the friendData array members' values
+
   // ---------------------------------------------------------------------------
 
   app.post("/api/friends", function(req, res) {
@@ -75,36 +75,20 @@ module.exports = function(app) {
 	}
 
 	res.json(bff);
-    // The follow is if you use arrays and json files on the server
-    // if (friendData.length < 5) {
-    //   friendData.push(req.body);
-    //   res.json(true);
-    // }
-    // else {
-    //   waitListData.push(req.body);
-    //   res.json(false);
-    // }
+ 
   });
 
   // ---------------------------------------------------------------------------
-  // I added this below code so you could clear out the table while working with the functionality.
+  // clears out the friendData array while working with the functionality.
   // Don"t worry about it!
 
-  app.post("/api/clear", function() {
+  // app.post("/api/clear", function() {
     // Empty out the arrays of data
     // If using .json files and objects
-    friendData = [];
-
-    // Lets Clear the Table/Wait List
-
-    connection.query("DELETE FROM reservations", function(error, results){
-      if(error) throw error;
-
-      console.log('deleted ' + results.affectedRows + ' rows');
-    }); // close connection.query
+    // friendData = [];
 
 
-  }); // close app.post
+  // }); // close app.post
 
 }; // function(app)
 
