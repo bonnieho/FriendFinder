@@ -9,8 +9,8 @@ Your apiRoutes.js file should contain two routes:
 
 // ===============================================================================
 // LOAD DATA
-// We are linking our route to a "data" source.
-// Thisdata source holds an array of information on friendData
+// We are linking our route to a "data" source, in this case 'friends.js'.
+// This data source holds an array of information called friendData
 // ===============================================================================
 
 // The follow line works with data in the js files
@@ -57,18 +57,18 @@ module.exports = function(app) {
 */
 	var userScores = [];
 	for (i=0; i<req.body.scores.length; i++){
-		userScores.push(parseInt(req.body.scores[i]));
+		userScores.push(parseInt(req.body.scores[i])); // since array members came in a strings, I gotta convert!
 	}
 
 	var bff;
-	var smallestDiff = 9999;
+	var smallestDiff = 9999; // ridiculously large number to use for comparison
 	for (i=0; i<friendData.length; i++){
 		var friendScores = friendData[i].scores;
 		var totalDifference = 0;
 		for (j=0; j<userScores.length; j++) {
-			totalDifference += Math.abs(userScores[j]-friendScores[j]);
+			totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
 		}
-		if (totalDifference<smallestDiff){
+		if (totalDifference<smallestDiff){ // keep comparing numbers based on smallest until you have run through all of the members in teh friendData array
 			bff = friendData[i];
 			smallestDiff = totalDifference;
 		}
@@ -78,6 +78,7 @@ module.exports = function(app) {
  
   });
 
+  // from an earlier assignment - maybe save for a rainy day
   // ---------------------------------------------------------------------------
   // clears out the friendData array while working with the functionality.
   // Don"t worry about it!

@@ -1,5 +1,5 @@
 
-//setting dependencies
+// setting dependencies
 
 var express = require("express");
 var bodyParser = require("body-parser");
@@ -14,7 +14,6 @@ var port = process.env.PORT || 3000;
 
 
 // BodyParser makes it possible for our server to interpret data sent to it.
-// The code below is pretty standard.
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
