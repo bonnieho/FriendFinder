@@ -1,13 +1,13 @@
 {
   "name": "friendfinder",
   "version": "1.0.0",
-  "description": "",
+  "description": "This app helps you find which serial killer from the series, Dexter, you'd be most likely to have a beer with.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Bonnie L. Hoffman",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
