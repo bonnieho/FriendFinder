@@ -13,6 +13,7 @@ Your htmlRoutes.js file should include two routes:
 // ===============================================================================
 var path = require("path");
 
+app.use(express.static("app/public"));
 
 // ===============================================================================
 // ROUTING
