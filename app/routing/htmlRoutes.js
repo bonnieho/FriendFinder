@@ -13,7 +13,6 @@ Your htmlRoutes.js file should include two routes:
 // ===============================================================================
 var path = require("path");
 
-app.use(express.static("app/public"));
 
 // ===============================================================================
 // ROUTING
@@ -25,6 +24,13 @@ module.exports = function(app) {
   // In each of the below cases the user is shown an HTML page of content
   // ---------------------------------------------------------------------------
 
+
+// Home route loads home.html
+  app.get("/", function(req, res) {
+    res.sendFile(path.join(__dirname + "../public/home.html"));
+  });
+
+
   app.get("/survey", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/survey.html"));
   });
@@ -33,4 +39,7 @@ module.exports = function(app) {
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));
   });
+
+  // app.use(express.static("app/public"));
+
 };
