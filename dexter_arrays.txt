@@ -141,7 +141,8 @@ How vindictive are you?
   "name":"Rudy Cooper",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Rudy Cooper.png",
   "scores":[
-    4, 0, 5, 4, 4, 3, 1, 0, 4, 2
+    "q1":4, 
+	"q2":0, 5, 4, 4, 3, 1, 0, 4, 2
     ]
 }
 {
