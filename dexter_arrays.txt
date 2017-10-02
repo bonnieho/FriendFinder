@@ -128,70 +128,166 @@ How vindictive are you?
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Dexter_Morgan.png",
   "scores":[
     5, 4, 5, 0, 5, 1, 0, 0, 5, 3
-    ]
-}
+    ],
+  "bio":"[Seasons 1-8 (all)]<br />  organized"
+},
 {
   "name":"Deb Morgan",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Deb_Morgan.png",
   "scores":[
     0, 5, 0, 0, 2, 2, 0, 0, 0, 0
-    ]
-}
+    ],
+  "bio":"[Seasons 1-8 (all)]<br />   loyal"
+},
 {
-  "name":"Rudy Cooper",
+  "name":"Rudy Cooper (Brian Moser)",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Rudy Cooper.png",
   "scores":[
-    "q1":4, 
-	"q2":0, 5, 4, 4, 3, 1, 0, 4, 2
-    ]
-}
+    4, 0, 5, 4, 4, 3, 1, 0, 4, 2
+    ],
+  "bio":"[Season 1]<br />You're obviously detail-oriented and likely drawn to all things science-related for 'Biney' to draw your match. Dexter's long-lost biological brother can be a bro to you, too, and you should solidify that bond over a nice, frozen drink, since's he's gained notoriety as Miami's one and only 'Ice Truck Killer'. Be sympathetic with Brian as he carries on about his romance with Deb and his elaborate scheme to re-connect with Dexter. If not, you could find yourself without a leg to stand on in the end."
+},
 {
   "name":"Lila Tournay",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Lila_Tournay.png",
   "scores":[
     1, 2, 0, 5, 4, 3, 1, 0, 4, 4
-    ]
-}
+    ],
+  "bio":"[Season 2]<br />An artistic streak must be what brings you to pair with this obsessive sociopathic painter with an insatiable appetite for setting things on fire. If the local bohemian coffeehouse is not in the stars for a meetup, you might instead consider breaking (or burning) bread at the neighborhood Benihana. A word to the wise - don't let this seductress get too attached as she will destroy anything that stands in the way of satisfying her burning desire."
+},
 {
   "name":"ADA Miguel Prado",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Miguel_Prado.png",
   "scores":[
     3, 1, 0, 0, 5, 4, 2, 0, 0, 4
-    ]
-}
+    ],
+  "bio":"[Season 3]<br />  risk-taker"
+},
 {
   "name":"Arthur Mitchell",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Arthur_Mitchell.png",
   "scores":[
     4, 0, 0, 1, 4, 5, 3, 4, 3, 4
-    ]
-}
+    ],
+  "bio":"[Season 4]<br />There's bound to be a little tension in the air when you hang out with this chosen companion, but don't take it personally as you both share a tendency to simmer and stew about past slights. With the Trinity Killer as a new friend, commiserating about those injustices could strengthen your bond if you make those dates over a cup of soothing chamomile at a quaint teahouse. Unless you want your new-found relationship to drain you of every drop of your being, though, you might want to especially avoid bathtubs around this bloke."
+},
 {
   "name":"Jordan Chase",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Jordan_Chase.png",
   "scores":[
     3, 0, 0, 0, 0, 4, 5, 0, 2, 2
-    ]
-}
+    ],
+  "bio":"[Season 5]<br />Your new pal is outgoing like you by virtue of being a renowned author and motivational speaker. Although he might deny it over a cappuccino or a hoppy IPA, he's also the leader of the Barrel Girl Gang; a group of his less-savory friends who are a rogue's gallery of sadists responsible for abducting and commiting unspeakable acts of violence to several women before ultimately killing them and stuffing their remains into large barrels."
+},
 {
   "name":"Travis Marshall",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Travis_Marshall.png",
   "scores":[
     0, 2, 0, 1, 1, 1, 0, 5, 2, 1
-    ]
-}
+    ],
+  "bio":"[Season 6]<br />Something about your spiritual nature pairs you with the Doomsday Killer. Maybe it's biblical prowess or a keen interest in ancient ritual that brings you two together, but whatever the reason, you can surely sacrifice a dark and stormy evening or two scripting plans to hang out over a nice chalice of wine somewhere."
+},
 {
   "name":"Hannah McKay",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Hannah_McKay.png",
   "scores":[
     2, 4, 4, 1, 4, 2, 0, 0, 5, 4
-    ]
-}
+    ],
+  "bio":"[Season 7]<br />    patient"
+},
 {
-  "name":"Oliver Saxon",
+  "name":"Oliver Saxon (Daniel Vogel)",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Oliver_Saxon.png",
   "scores":[
     4, 0, 0, 4, 4, 0, 0, 0, 4, 5
-    ]
+    ],
+  "bio":"[Season 8]<br />An urge to get even is the thread you have in common with your new Brain Surgeon of a companion. If you have half a mind to meet up by the pool for a few brewskis, let him carry on about all of his mommy issues. Anyone with a few brain cells will be able to tell right away that this is the way to win this potential buddy's loyalty."
 }
+
+
+
+
+
+
+Dex:
+
+Dexter Morgan is the titular character and antihero of both Showtime's DEXTER and the Dexter Book Series. Until he faked his own death and resorted to isolation, Dexter was a Serial Killer that went after other killers (to control his "Dark Passenger"), rather than harming innocent people. By day, he was a blood spatter analyst within the Miami Metro Police Department, working closely with the detectives and other forensic specialists, while maintaining a jovial personality. 
+
+His detailed method of killing allowed Dexter to avoid the justice system by getting rid of any potential evidence (including the body itself) with the use of stream currents that flow north into the Atlantic Ocean.
+
+Dexter was the true "Bay Harbor Butcher," while Sergeant James Doakes was framed for the crimes that were committed. 
+
+
+Deb:
+
+Debra was often the conscience of the series, providing the morally correct sense of justice, while her brother, Dexter Morgan, always pursued much darker means. Her involvement in the plot was usually parallel to Dexter's, usually hunting the same killer with the intent on bringing them to justice, in spite of the fact that Dexter sought them to satisfy his Dark Passenger.
+
+Her adopted brother is Dexter Morgan, the main protagonist and Serial Killer of the series... while both were raised by Deb's biological parents; Harry and Doris Morgan. Debra grew up watching her brother take a lot of the spotlight, often seeking attention from her father, who would otherwise focus everything on Dexter. Little did she know that Harry's reasoning for doing this was not because he loved her any less, but he was trying to control a "weapon" of sorts within his surrogate son to handle his own personal agenda with Serial killers. Debra decided to join the police in her father's footsteps, hoping to become worthy within his eyes, even though he had passed away years before.
+
+She evolved steadily throughout the series, moving up from a cop in Vice to Lieutenant of Miami Metro Homicide. Unfortunately, when she killed Captain Maria LaGuerta to protect her brother Dexter, something inside of her changed and she left her life at Miami Metro behind. She worked as a Private Investigator for
+
+
+
+Season 1 - Ice Truck Killer
+Based on Jeff Lindsay’s first Dexter novel, the debut season gradually established the show’s mix of tension and humor as Dex tracks a perfectionistic killer (Christian Camargo) who’s revealed to be his long-lost biological brother and Debra’s boyfriend.
+
+Brian Moser, under the alias Rudy Cooper, is the first season's Main antagonist. Dubbed the Ice Truck Killer by Miami Metro PD, Brian is actually Dexter's older brother and uses his victims in an elaborate scheme to help Dexter remember his past and reunite them as a family. Dexter eventually uncovers his origins, but rejects Brian in favor of the life he has managed to live using the Code of Harry. Knowing Brian will never stop trying to "free" him from his normal life, Dexter kills him, making it look like a suicide. Brian visits Miami Metro a few times to meet with Debra. 
+
+
+
+
+Season 2 - Bay Harbor Butcher (Lila)
+Lila, whom Dexter meets while attending a Narcotics Anonymous meeting (an act he is putting on as part of a lie to Rita) is a sociopath with a propensity to burn things. She and Dexter form a complicated relationship, as Dexter believes she can help him resist his Dark Passenger, while Lila believes Dexter is her soulmate and is willing to harm anyone whom she sees an obstacle to them being together. Dexter eventually realizes her dark obsession with him and breaks things off, which leads to Lila stalking him and the other people in his life. 
+
+Lila and Doakes meet for the first and only time when a distraught Lila steals Dexter's GPS and uses it to find the cabin, where she finds Doakes still in captivity. Doakes reveals that Dexter is a serial killer, but rather than set him free, Lila decides to kill Doakes to remove another threat to her relationship with Dexter, believing that being a killer will bring them closer together. She blows up the cabin, killing Doakes and inadvertently completing Dexter's frame job.
+
+When Dexter rejects her again, Lila tries to kill him along with Astor and Cody before fleeing the country. Dexter eventually tracks her down in Paris where he quickly kills her, using drugs on her to keep her from feeling the pain. 
+
+
+
+Season 3 - The Skinner
+Dexter is able to frame Freebo for the crime, but after hunting down and killing Freebo himself, he is caught by Miguel. Instead of turning Dexter in, Miguel thanks him, and they become friends.
+
+An uneasy trust builds between the two men, and Dexter eventually opens up about his other vigilante murders after Miguel makes it clear he supports such a thing and shows an interest in participating himself. Though Dexter resists at first, he eventually teaches Miguel some of his methods and code. After Miguel commits his first murder with Dexter, though, he develops bloodlust and murders a defense attorney he dislikes. When Dexter chastises Miguel for this, their friendship falls apart and they struggle to gain leverage over each other. 
+
+
+Season 4 - Trinity
+The clear fan favorite: John Lithgow chewed scenery as the sadistic Trinity Killer and worthy Dexter adversary who bled out his victims while cradling them nude in a bathtub [shudder]. 
+
+Arthur Mitchell, also known as the Trinity Killer, is the main antagonist. After discovering that Mitchell has a family and has successfully lived a dual life for more than thirty years as an active serial killer, Dexter tries to befriend him in an effort to learn how he does it. Though he knows the risk Mitchell poses, Dexter lets him live on several occasions, even going as far as to stop Mitchell from committing suicide, because he thinks he can learn from him. Eventually, however, Dexter discovers that Mitchell's "happy" home life is a sham, and his wife and children are actually terrified of the mentally and emotionally unstable Mitchell. Mitchell figures out Dexter's deception and, believing Dexter is only trying to extort him, threatens to destroy Dexter's life if he doesn't leave him alone. Dexter eventually manages to trap and kill Mitchell, but not before Mitchell made good on his promise—after disposing of Mitchell's remains, Dexter comes home to find his wife, Rita, dead as Mitchell's final victim. 
+
+
+
+Season 5: Barrel Girl Gang
+
+Dexter (the show and the character) struggles to move forward in the wake of Rita’s death. Dex hunts the sadistic Barrel Girl Gang and bonds with traumatized victim Lumen Pierce (Julia Stiles). Lumen is a rare full-season guest star who survived.
+
+Jordan Chase is a famous author and motivational speaker, as well as the leader of the Barrel Girl Gang, a group of sadistic men responsible for abducting, raping, and killing several women. Dexter ends up saving their thirteenth known victim, Lumen Pierce, from death, after which the two team up and hunt down the group's members one by one. Eventually, Chase is the only one left, and abducts Lumen to set up a trap for Dexter. But when Dexter finds them, he manages to gain the upper hand, and Lumen stabs Chase in the heart. 
+
+
+
+Season 6: The Doomsday Killers
+
+A wheel-spinning mess that took Debra discovering her brother’s secret in the season’s final seconds to save it: Dex plows through random subplots (Quinn’s alcoholism? That creepy computer programmer? Trinity’s family?) and contemplates religion as two boring apocalypse obsessives (Edward James Olmos and Colin Hanks) — but one is imaginary! — create gory over-the-top tableaus.
+
+The main antagonist is Travis Marshall, a.k.a. The Doomsday Killer. Professor James Gellar is initially thought to be working with Travis, but he is found dead, later revealed to have been murdered by Travis approximately three years before the season started. Travis is the first antagonist to have a Dark Passenger appear in physical form, and the second character overall (Dexter Morgan being the first). His Dark Passenger manifests itself as Gellar.
+
+Under the guidance of "Gellar," Travis kills several people and stages their bodies in public tableaux alluding to the Book of Revelation, his goal being to bring about the end of the world. Travis later tries to resist his murderous side, but his Dark Passenger eventually overtakes him and he continues his delusional mission without the Gellar manifestation. He tries to carry out his plan's final phase by murdering Harrison Morgan, but Dexter stops and kills him. 
+
+
+
+Season 7 - Isaak Sirko
+
+The creative rebound: Debra agonizes over keeping her brother’s secret; Dexter spars with a vengeful Russian mobster (Ray Stevenson) and Capt. Maria LaGuerta’s (Lauren Velez) growing suspicions, while falling for the intoxicatingly toxic florist Hannah McKay (Yvonne Strahovski). But the season does have the series’ most ridiculous moment: Dexter sets up a kill room at the Miami airport.
+
+Isaak is the Don of the Koshka Brotherhood, a Ukrainian/Russian organized crime syndicate responsible for the deaths of numerous people, including but not limited to Kaja Soroka, Mike Anderson, Tony Rush, Alex Dubrozny, Andres Rodriguez, and two unnamed Colombians.
+
+Isaak comes to Miami after Viktor Baskov, who is later revealed to be his lover, fails to make his flight back to Kiev. He leaves a trail of bodies in search for Viktor, and eventually learns that Dexter killed Viktor. Dexter tries to have Isaak killed through the Brotherhood's Colombian rivals, but underestimates Isaak's skills as he kills all the assassins with ease. Isaak is arrested for the murders but later released due to evidence tampering by Joey Quinn at the behest of George Novikov. Isaak and Dexter form a complicated relationship, as Dexter learns the truth behind Isaak's desire to kill him, while Isaak believes he and Dexter could have been good friends under different circumstances. When the Brotherhood turns against him and sends assassins after him, Isaak forces Dexter to help him by kidnapping Dexter's girlfriend, Hannah McKay. Isaak also promises to leave Dexter alone after it's done. The two work together to dispatch the assassins, but George then appears and shoots Isaak himself. As a last request, Dexter takes Isaak to the spot where he dumped Viktor's body, and Isaak gives Dexter one last piece of advice about love before dying. 
+
+
+Season 8: The Brain Surgeon
+Still, Dr. Vogel (Charlotte Rampling) had a real presence and there’s a couple stand-out episodes, which is more than you can say for…
+
+Oliver Saxon, a.k.a. The Brain Surgeon, is the main antagonist of Season 8. His identity is unknown for most of the season and presumed to be a former patient of Evelyn Vogel. But he is later revealed to be her son Daniel Vogel, having faked his death and changed his name years ago. 
+
 

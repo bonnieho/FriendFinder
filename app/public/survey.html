@@ -4,6 +4,14 @@
 	<meta charset="UTF-8">
 	<title>"FriendFinder" App - with a delightfully sinister twist...</title>
 
+	<meta name="description" content="An interactive, themed 'Friend Matching' app built using Node.js and express and deployed to Heroku." />
+	<meta name="keyword" content="javascript, node, express.js, game, matchmaker, heroku, Dexter, Showtime" />
+	<meta name="author" content="Bonnie L. Hoffman, bonnieho@rice.edu" />
+	<meta name="robots" content="noindex, nofollow" />
+	<!-- favicon --> <link rel="shortcut icon" type="image/xicon" href="/images/Favicon.ico" />
+
+
+
 	<!-- Latest compiled and minified CSS & JS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery.js"></script>
@@ -14,6 +22,7 @@
 
 	<!-- Chosen -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+	<link rel="stylesheet" href="/css/local_styles.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
 </head>
@@ -22,7 +31,7 @@
 	<div class="container">
 
 		<h2>Survey Questions</h2>
-		
+
 		<hr>
 
 		<h3><strong>About You</strong></h3>
@@ -178,6 +187,8 @@
 	      <div class="modal-body">
 	        <h2 id="matchName"></h2>
 	        <img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+	        <p id="matchBio"></p>
+	        <!-- <p id="matchBio" style="display:inline; color: #333; margin-top: -24px;"></p> -->
 	      </div>
 	      <div class="modal-footer">
 	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -240,6 +251,7 @@
 	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
 	    		$("#matchName").text(data.name);
 	    		$('#matchImg').attr("src", data.photo);
+	    		$("#matchBio").text(data.bio);
 
 		    	// Show the modal with the best match 
 		    	$("#resultsModal").modal('toggle');

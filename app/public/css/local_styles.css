@@ -1,0 +1,10 @@
+/* LOCAL style sheet for Dexter Friend Finder App */
+
+body {
+	background-image: url(../images/blood_splat_bg.jpg);
+}
+
+#matchBio {
+	display:inline;
+	color: #300;
+}
