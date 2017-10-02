@@ -18,7 +18,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 
-
+// app.use(express.static("app/public/home.html"));
 
 
 
@@ -29,6 +29,8 @@ app.use(bodyParser.text());
 app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "home.html"));
 });
+
+// app.use(express.static("app/public"));
 
 
 // ================================================================================
