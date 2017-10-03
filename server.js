@@ -18,7 +18,9 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 
-// app.use(express.static("app/public/home.html"));
+// setting the public directory as the default for serving up files
+// kudos to La Puertoriquena Buena (Mariela Velez) for suggesting to preceed the public path with 'app'!
+app.use(express.static('app/public'));
 
 
 
@@ -30,7 +32,6 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "./app/public/home.html"));
 });
 
-// app.use(express.static("app/public"));
 
 
 // ================================================================================

@@ -4,7 +4,12 @@ body {
 	background-image: url(../images/blood_splat_bg.jpg);
 }
 
-#matchBio {
+.modal-body #matchBio{
+	vertical-align: text-top;
 	display:inline;
 	color: #300;
+}
+
+#matchImg {
+	display;inline;
 }

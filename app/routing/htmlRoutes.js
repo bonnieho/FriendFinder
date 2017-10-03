@@ -29,6 +29,11 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, "../public/survey.html"));
   });
 
+  app.get("/images/Favicon.ico", function(req, res) {
+    console.log(req.url);
+    res.sendFile(path.join(__dirname, req.url));
+  });
+
   // If no matching route is found default to home
   app.get("*", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/home.html"));

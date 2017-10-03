@@ -42,7 +42,7 @@ module.exports =
 },
 {
   "name":"Rudy Cooper (Brian Moser)",
-  "photo":"http://youkidsgetoffmylawn.org/dexter_images/Rudy Cooper.png",
+  "photo":"http://youkidsgetoffmylawn.org/dexter_images/Rudy_Cooper.png",
   "scores":[
     4, 0, 5, 4, 4, 3, 1, 0, 4, 2
     ],
@@ -70,7 +70,7 @@ module.exports =
   "scores":[
     4, 0, 0, 1, 4, 5, 3, 4, 3, 4
     ],
-  "bio":"[Season 4]\r\nThere's bound to be a little tension in the air when you hang out with this chosen companion, but don't take it personally as you both share a tendency to simmer and stew about past slights. With the Trinity Killer as a new friend, commiserating about those injustices could strengthen your bond if you make those dates over a cup of soothing chamomile at a quaint teahouse. Unless you want your new-found relationship to drain you of every drop of your being, though, you might want to especially avoid bathtubs around this bloke."
+  "bio":"[Season 4]<br />There's bound to be a little tension in the air when you hang out with this chosen companion, but don't take it personally as you both share a tendency to simmer and stew about past slights. With the Trinity Killer as a new friend, commiserating about those injustices could strengthen your bond if you make those dates over a cup of soothing chamomile at a quaint teahouse. Unless you want your new-found relationship to drain you of every drop of your being, though, you might want to especially avoid bathtubs around this bloke."
 },
 {
   "name":"Jordan Chase",
