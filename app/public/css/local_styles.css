@@ -4,12 +4,85 @@ body {
 	background-image: url(../images/blood_splat_bg.jpg);
 }
 
-.modal-body #matchBio{
-	vertical-align: text-top;
-	display:inline;
-	color: #300;
+hr {
+	color: #900;
+	background-color: #900;
+	height:0; 
+  	border:0; 
+  	border-top:1px solid #900; 
 }
 
-#matchImg {
-	display;inline;
+#innerDiv {
+	background-color:rgba(236, 236, 236, 0.9); /* lt. gray with opacity */
+	margin-top: 24px;
+	padding: 12px 24px;
 }
+
+#innerDiv .btn-block {
+	width: 50%;
+	margin: auto;
+}
+
+input#name{
+	width: 50%;
+}
+
+input#photo{
+	width: 50%;
+}
+
+.wrap {
+	display: inline;
+}
+
+/* .wrap h3 h4 .chosen-select {
+	display: table-cell;
+}  */
+
+h3.wrap {
+	display: inline;
+	width: 50%;
+} 
+h4.wrap {
+	display: inline;
+	width: 50%;
+} 
+
+.modal-body #holder{
+	display:block;
+	height: 254px;
+	/* border: solid #900 2px; */
+}
+
+.modal-body #matchImg {
+	display:inline;
+	margin-right: 0;
+}
+
+.modal-body #matchBio{
+	float: right;
+	vertical-align: text-top;
+	display:inline;
+	color: #900;
+	margin-top: 0;
+	margin-right: 6px;
+	margin-left: 0;
+	width: 60%;
+}
+
+.ital {
+	font-style: italic;
+}
+
+footer {
+	margin-bottom: 24px;
+}
+
+footer p {
+	background-color: rgba(248, 248, 248, 0.9); /* lt. gray with opacity */;
+	padding: 12px;
+}
+
+
+
+

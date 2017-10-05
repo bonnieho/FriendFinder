@@ -291,3 +291,22 @@ Still, Dr. Vogel (Charlotte Rampling) had a real presence and there’s a couple
 Oliver Saxon, a.k.a. The Brain Surgeon, is the main antagonist of Season 8. His identity is unknown for most of the season and presumed to be a former patient of Evelyn Vogel. But he is later revealed to be her son Daniel Vogel, having faked his death and changed his name years ago. 
 
 
+
+
+
+
+STANDARD @IMPORT
+<link href="https://fonts.googleapis.com/css?family=Nosifer|Permanent+Marker|Trade+Winds" rel="stylesheet">
+Specify in CSS
+
+Use the following CSS rules to specify these families:
+
+    font-family: 'Nosifer', cursive;
+
+    font-family: 'Permanent Marker', cursive;
+
+    font-family: 'Trade Winds', cursive;
+
+
+
+
