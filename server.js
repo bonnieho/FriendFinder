@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 
 // setting the public directory as the default for serving up files
-// kudos to La Puertoriquena Buena (Mariela Velez) for suggesting to preceed the public path with 'app'!
+// kudos to La Puertoriquena Buena (Mariela Velez) for suggesting to precede the public path with 'app'!
 app.use(express.static('app/public'));
 
 
