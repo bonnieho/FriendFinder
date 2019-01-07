@@ -1,52 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>"FriendFinder" App - with a delightfully sinister twist...</title>
+	<head>
+		<meta charset="UTF-8">
+		<title>"FriendFinder" App - with a delightfully sinister twist...</title>
 
-	<meta name="description" content="An interactive, themed 'Friend Matching' app built using Node.js and express and deployed to Heroku." />
-	<meta name="keyword" content="javascript, node, express.js, game, matchmaker, heroku, Dexter, Showtime" />
-	<meta name="author" content="Bonnie L. Hoffman, bonnieho@rice.edu" />
-	<meta name="robots" content="noindex, nofollow" />
-	<!-- favicon --> <link rel="shortcut icon" type="image/xicon" href="./images/Favicon.ico" />
+		<meta name="description" content="An interactive, themed 'Friend Matching' app built using Node.js and express and deployed to Heroku." />
+		<meta name="keyword" content="javascript, node, express.js, game, matchmaker, heroku, Dexter, Showtime" />
+		<meta name="author" content="Bonnie L. Hoffman, bonnieho@rice.edu" />
+		<meta name="robots" content="noindex, nofollow" />
+		<!-- favicon --> <link rel="shortcut icon" type="image/xicon" href="./images/Favicon.ico" />
 
 
 
-	<!-- Latest compiled and minified CSS & JS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<script src="https://code.jquery.com/jquery.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<!-- Latest compiled and minified CSS & JS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-	<!-- Font Awesome Glyphicons -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+		<!-- Font Awesome Glyphicons -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
-	<!-- Chosen -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
-	<link rel="stylesheet" href="/css/local_styles.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
+		<!-- Chosen -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.css">
+		<link rel="stylesheet" href="/css/local_styles.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chosen/1.5.1/chosen.jquery.min.js"></script>
 
-</head>
-<body>
+	</head>
+	<body>
 
-	<div class="container">
-		<div id="innerDiv">
-			<h2>Survey Questions</h2>
+		<div class="container">
+			<div id="innerDiv">
+				<h2>Survey Questions</h2>
 
-			<hr>
+				<hr>
 
-			<h3><strong>About You</strong></h3>
-			<h4>Name (Required)</h4>
-			<input type="text" name="" id="name" class="form-control" required >
+				<h3><strong>About You</strong></h3>
+				<h4>Name (Required)</h4>
+				<input type="text" name="" id="name" class="form-control" required >
 
-			<h4>Link to Photo Image (Required)</h4>
-			<input type="text" name="" id="photo" class="form-control" required >
+				<h4>Link to Photo Image (Required)</h4>
+				<input type="text" name="" id="photo" class="form-control" required >
 
-			<hr>
-			
-			<div class="wrap">
-				<h3>Question 1</h3>
-				<h4>How organized are you?</h4>
-			 	<select data-placeholder="" class="chosen-select" id="q1">
+				<hr>
+				
+				<div class="wrap">
+					<h3>Question 1</h3>
+					<h4>How organized are you?</h4>
+				 	<select data-placeholder="" class="chosen-select" id="q1">
+				 		<option value=""></option>
+			            <option value="1">1 (Strongly Disagree)</option>
+			            <option value="2">2</option>
+			            <option value="3">3</option>
+			            <option value="4">4</option>
+			            <option value="5">5 (Strongly Agree)</option>
+			      	</select>
+
+					<h3>Question 2</h3>
+					<h4>How loyal are you?</h4>
+				 	<select data-placeholder="" class="chosen-select" id="q2">
+				 		<option value=""></option>
+			            <option value="1">1 (Strongly Disagree)</option>
+			            <option value="2">2</option>
+			            <option value="3">3</option>
+			            <option value="4">4</option>
+			            <option value="5">5 (Strongly Agree)</option>
+			      	</select>
+				</div>
+
+				<h3>Question 3</h3>
+				<h4>How science-minded are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q3">
 			 		<option value=""></option>
 		            <option value="1">1 (Strongly Disagree)</option>
 		            <option value="2">2</option>
@@ -55,9 +78,10 @@
 		            <option value="5">5 (Strongly Agree)</option>
 		      	</select>
 
-				<h3>Question 2</h3>
-				<h4>How loyal are you?</h4>
-			 	<select data-placeholder="" class="chosen-select" id="q2">
+
+				<h3>Question 4</h3>
+				<h4>How artistic are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q4">
 			 		<option value=""></option>
 		            <option value="1">1 (Strongly Disagree)</option>
 		            <option value="2">2</option>
@@ -65,246 +89,222 @@
 		            <option value="4">4</option>
 		            <option value="5">5 (Strongly Agree)</option>
 		      	</select>
+
+
+				<h3>Question 5</h3>
+				<h4>How much of a risk-taker are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q5">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+
+				<h3>Question 6</h3>
+				<h4>How angry are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q6">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+
+				<h3>Question 7</h3>
+				<h4>How outgoing are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q7">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+				<h3>Question 8</h3>
+				<h4>How spiritual are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q8">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+				<h3>Question 9</h3>
+				<h4>How patient are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q9">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+				<h3>Question 10</h3>
+				<h4>How vindictive are you?</h4>
+			 	<select data-placeholder="" class="chosen-select" id="q10">
+			 		<option value=""></option>
+		            <option value="1">1 (Strongly Disagree)</option>
+		            <option value="2">2</option>
+		            <option value="3">3</option>
+		            <option value="4">4</option>
+		            <option value="5">5 (Strongly Agree)</option>
+		      	</select>
+
+				<br>
+				<br>
+
+				<!-- Submit Button -->
+				<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+		 Submit</button>
 			</div>
+		</div>	
+			<hr>
+		    <footer class="footer">
+		      <div class="container">
+			        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/bonnieho/FriendFinder">GitHub Repo</a></p>
 
-			<h3>Question 3</h3>
-			<h4>How science-minded are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q3">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+			        <p class="col-sm-12 col-md-12 ital footer">
+							&#064;2017 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a>&#160;&#160;(Created as a requirement toward the completion of The University of Texas at Houston Coding Bootcamp)<br />
+							SYNOPSIS: In this assignment, the GIPHY API was called and returned results were modified using Javascript and jQuery to create a dynamic web page that populates with gifs of the user's choice, based on a theme of classic television shows. <br />
+							In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. 
 
+	This full-stack site will take in results from your users' surveys, 
 
-			<h3>Question 4</h3>
-			<h4>How artistic are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q4">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+	then compare their answers with those from other users. 
+
+	The app will then display the name and picture of the user with the best overall match.
 
 
-			<h3>Question 5</h3>
-			<h4>How much of a risk-taker are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q5">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+	You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+	Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
+	                    Your server.js file should require the basic npm packages we've used in class: express, body-parser and path.
 
-			<h3>Question 6</h3>
-			<h4>How angry are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q6">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+	                    Your htmlRoutes.js file should include two routes:
+	                        A GET Route to /survey which should display the survey page.
+	                        A default, catch-all route that leads to home.html which displays the home page.
 
+	    Your apiRoutes.js file should contain two routes:
+	                        A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
+	        A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
-			<h3>Question 7</h3>
-			<h4>How outgoing are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q7">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+	                    You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
+	                    The closest match will be the user with the least amount of difference.
 
-			<h3>Question 8</h3>
-			<h4>How spiritual are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q8">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
+	    Once you've found the current user's most compatible friend, display the result as a modal pop-up.
+	        The modal should display both the name and picture of the closest match.
 
-			<h3>Question 9</h3>
-			<h4>How patient are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q9">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
-
-			<h3>Question 10</h3>
-			<h4>How vindictive are you?</h4>
-		 	<select data-placeholder="" class="chosen-select" id="q10">
-		 		<option value=""></option>
-	            <option value="1">1 (Strongly Disagree)</option>
-	            <option value="2">2</option>
-	            <option value="3">3</option>
-	            <option value="4">4</option>
-	            <option value="5">5 (Strongly Agree)</option>
-	      	</select>
-
-			<br>
-			<br>
-
-			<!-- Submit Button -->
-			<button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
-	 Submit</button>
+						</p>
+		      
+		    </footer>
+			
 		</div>
-	</div>	
-		<hr>
-	    <footer class="footer">
-	      <div class="container">
-		        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/bonnieho/FriendFinder">GitHub Repo</a></p>
 
-		        <p class="col-sm-12 col-md-12 ital footer">
-						&#064;2017 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a>&#160;&#160;(Created as a requirement toward the completion of The University of Texas at Houston Coding Bootcamp)<br />
-						SYNOPSIS: In this assignment, the GIPHY API was called and returned results were modified using Javascript and jQuery to create a dynamic web page that populates with gifs of the user's choice, based on a theme of classic television shows. <br />
-						In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. 
+		<!-- Modal -->
+		<div id="resultsModal" class="modal fade" role="dialog">
+		  <div class="modal-dialog">
 
-This full-stack site will take in results from your users' surveys, 
+		    <!-- Modal content-->
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <button type="button" class="close" data-dismiss="modal">&times;</button>
+		        <h2 class="modal-title"><strong>Best Match</strong></h2>
+		      </div>
+		      <div class="modal-body">
+		        <h2 id="matchName"></h2>
+		        <div id=holder>
+		        	<img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
+		        	<p id="matchBio"></p>
+		       	</div>
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
 
-then compare their answers with those from other users. 
+		  </div>
+		</div>
 
-The app will then display the name and picture of the user with the best overall match.
+	  <script type="text/javascript">
 
+	  	// Chosen CSS
+	    var config = {
+	      '.chosen-select'           : {},
+	      '.chosen-select-deselect'  : {allow_single_deselect:true},
+	      '.chosen-select-no-single' : {disable_search_threshold:10},
+	      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+	      '.chosen-select-width'     : {width:"95%"}
+	    }
+	    for (var selector in config) {
+	      $(selector).chosen(config[selector]);
+	    }
 
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
-Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+	    // Capture the form inputs 
+	    $("#submit").on("click", function(){
 
-                    Your server.js file should require the basic npm packages we've used in class: express, body-parser and path.
+	    	// Form validation
+	    	function validateForm() {
+			  var isValid = true;
+			  $('.form-control').each(function() {
+			    if ( $(this).val() === '' )
+			        isValid = false;
+			  });
 
-                    Your htmlRoutes.js file should include two routes:
-                        A GET Route to /survey which should display the survey page.
-                        A default, catch-all route that leads to home.html which displays the home page.
+			  $('.chosen-select').each(function() {
 
-    Your apiRoutes.js file should contain two routes:
-                        A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
-        A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
+			  	if( $(this).val() === "")
+			  		isValid = false
+			  })
+			  return isValid;
+			}
 
-                    You should save your application's data inside of app/data/friends.js as an array of objects. Each of these objects should roughly follow the format below.
-                    The closest match will be the user with the least amount of difference.
-
-    Once you've found the current user's most compatible friend, display the result as a modal pop-up.
-        The modal should display both the name and picture of the closest match.
-
-					</p>
-	      
-	    </footer>
-		
-	</div>
-
-	<!-- Modal -->
-	<div id="resultsModal" class="modal fade" role="dialog">
-	  <div class="modal-dialog">
-
-	    <!-- Modal content-->
-	    <div class="modal-content">
-	      <div class="modal-header">
-	        <button type="button" class="close" data-dismiss="modal">&times;</button>
-	        <h2 class="modal-title"><strong>Best Match</strong></h2>
-	      </div>
-	      <div class="modal-body">
-	        <h2 id="matchName"></h2>
-	        <div id=holder>
-	        	<img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-	        	<p id="matchBio"></p>
-	       	</div>
-	      </div>
-	      <div class="modal-footer">
-	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-	      </div>
-	    </div>
-
-	  </div>
-	</div>
-
-  <script type="text/javascript">
-
-  	// Chosen CSS
-    var config = {
-      '.chosen-select'           : {},
-      '.chosen-select-deselect'  : {allow_single_deselect:true},
-      '.chosen-select-no-single' : {disable_search_threshold:10},
-      '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
-      '.chosen-select-width'     : {width:"95%"}
-    }
-    for (var selector in config) {
-      $(selector).chosen(config[selector]);
-    }
-
-    // Capture the form inputs 
-    $("#submit").on("click", function(){
-
-    	// Form validation
-    	function validateForm() {
-		  var isValid = true;
-		  $('.form-control').each(function() {
-		    if ( $(this).val() === '' )
-		        isValid = false;
-		  });
-
-		  $('.chosen-select').each(function() {
-
-		  	if( $(this).val() === "")
-		  		isValid = false
-		  })
-		  return isValid;
-		}
-
-		// If all required fields are filled
-		if (validateForm() == true)
-		{
-			// Create an object for the user's data
-	    	var userData = {
-	    		name: $("#name").val(),
-	    		photo: $("#photo").val(),
-	    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
-	    	}
+			// If all required fields are filled
+			if (validateForm() == true)
+			{
+				// Create an object for the user's data
+		    	var userData = {
+		    		name: $("#name").val(),
+		    		photo: $("#photo").val(),
+		    		scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+		    	}
 
 
-	    	// Grab the URL of the website
-	    	var currentURL = window.location.origin;
+		    	// Grab the URL of the website
+		    	var currentURL = window.location.origin;
 
-	    	// AJAX post the data to the friends API. 
-	    	$.post(currentURL + "/api/friends", userData, function(data){
+		    	// AJAX post the data to the friends API. 
+		    	$.post(currentURL + "/api/friends", userData, function(data){
 
-	    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
-	    		$("#matchName").text(data.name);
-	    		$('#matchImg').attr("src", data.photo);
-	    		// $("#matchBio").text(data.bio);
-	    		$('#matchBio').html(data.bio);
+		    		// Grab the result from the AJAX post so that the best match's name and photo are displayed.
+		    		$("#matchName").text(data.name);
+		    		$('#matchImg').attr("src", data.photo);
+		    		// $("#matchBio").text(data.bio);
+		    		$('#matchBio').html(data.bio);
 
-		    	// Show the modal with the best match 
-		    	$("#resultsModal").modal('toggle');
+			    	// Show the modal with the best match 
+			    	$("#resultsModal").modal('toggle');
 
-	    	});
-		}
-		else
-		{
-			alert("Please fill out all fields before submitting!");
-		}
-    	
-    	return false;
-    });
+		    	});
+			}
+			else
+			{
+				alert("Please fill out all fields before submitting!");
+			}
+	    	
+	    	return false;
+	    });
 
 
-  </script>
+	  </script>
 
-</body>
+	</body>
 </html>
