@@ -220,7 +220,7 @@ Even kill to protect her brother
   "scores":[
     0, 2, 0, 1, 1, 1, 0, 5, 2, 1
     ],
-  "bio":"[Season 6]<br />13 Something about your spiritual nature pairs you with the Doomsday Killer. Maybe it's biblical prowess or a keen interest in ancient ritual that brings you two together, but whatever that revelation is in the end, rest assured both of you can surely sacrifice a dark and stormy evening or two scripting plans to hang out in communion over a nice chalice of wine somewhere."
+  "bio":"[Season 6]<br />13 Something about your spiritual nature pairs you with the Doomsday Killer. Maybe it's biblical prowess or a keen interest in ancient ritual that brings you two together, but whatever that revelation is in the end, rest assured both of you can surely sacrifice a dark and stormy evening or two scripting plans to hang out in communion over a nice chalice of sacremental wine somewhere."
 },
 {
   "name":"Hannah McKay",
