@@ -1,3 +1,15 @@
+# FriendFinder
+
+Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/)
+
+## Overview
+
+This project is a classic "Hangman" app using a theme of National Hockey League team names. The app runs in a web browser and features dynamically updated HTML powered by basic JavaScript code.
+
+
+- - -
+
+
 In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. 
 
 	This full-stack site will take in results from your users' surveys, 
@@ -25,3 +37,11 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
 
 	    Once you've found the current user's most compatible friend, display the result as a modal pop-up.
 	        The modal should display both the name and picture of the closest match.
+
+
+- - - 
+
+
+(c)2017-2019 __Bonnie Lynne Hoffman__ 
+
+*toward the completion of The University of Texas at Austin Houston Coding Boot Camp Certificate - (June 2017 cohort)*

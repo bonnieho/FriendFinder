@@ -76,11 +76,13 @@ h4.wrap {
 
 footer {
 	margin-bottom: 24px;
+	text-align: center;
 }
 
 footer p {
 	background-color: rgba(248, 248, 248, 0.9); /* lt. gray with opacity */;
 	padding: 12px;
+	text-align: center;
 }
 
 
