@@ -4,6 +4,8 @@ Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-fri
 
 ## Overview
 
+In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; something akin to a basic dating app. The concept is to take in results input by a user into a simple survey, and then compare those answers with profiles that are (previously pre-populated) from other users.
+
 This project is a classic "Hangman" app using a theme of National Hockey League team names. The app runs in a web browser and features dynamically updated HTML powered by basic JavaScript code.
 
 
