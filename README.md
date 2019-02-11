@@ -4,21 +4,20 @@ Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-fri
 
 ## Overview
 
-In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; something akin to a basic dating app. The concept is to take in results input by a user into a simple survey, and then compare those answers with profiles that are (previously pre-populated) from other users.
+In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; something akin to a basic dating app. The concept is to take in results input by a user into a simple survey and then compare those answers with profiles *(previously pre-populated by the author)* from other users. The result of that comparison will yield a modal containing the name, picture, and a brief introduction of the overall match based on the user's survey choices.
 
-This project is a classic "Hangman" app using a theme of National Hockey League team names. The app runs in a web browser and features dynamically updated HTML powered by basic JavaScript code.
 
+You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
+	Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
 
 - - -
+
+### Behind the Scenes of the App:
+
 
 
 In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. 
 
-	This full-stack site will take in results from your users' surveys, 
-
-	then compare their answers with those from other users. 
-
-	The app will then display the name and picture of the user with the best overall match.
 
 
 	You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
@@ -40,6 +39,17 @@ In this activity, you'll build a compatibility-based "FriendFinder" application 
 	    Once you've found the current user's most compatible friend, display the result as a modal pop-up.
 	        The modal should display both the name and picture of the closest match.
 
+
+
+	This full-stack site will take in results from your users' surveys, 
+
+	then compare their answers with those from other users. 
+
+	The app will then display the name and picture of the user with the best overall match.
+
+#### Author's note:
+
+Although this was a project that was assigned and originally completed in my full-stack coding bootcamp, it wasn't until well after the course was over that I decided to update it with the purpose of refreshing and updating my javascript skills. With a new-found enthusiasm, I took this as an opportunity to try some more advanced techniques that had been suggested at the time of the assignment, as well as a few that I took upon myself in the interest of making a much more 'digified' product than I was able to produce back under the time constraint of the original offering!
 
 - - - 
 
