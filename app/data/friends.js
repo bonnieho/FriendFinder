@@ -46,7 +46,7 @@ module.exports =
   "scores":[
     4, 0, 5, 4, 4, 3, 1, 0, 4, 2
     ],
-  "bio":"[Season 1]<br />You're obviously detail-oriented and likely drawn to all things science-related for 'Biney' to draw your match. Dexter's long-lost biological brother can be a bro to you, too, and you should solidify that bond over a nice, frozen drink, since's he's gained notoriety as Miami's one and only 'Ice Truck Killer'. Be sympathetic with Brian as he carries on about his romance with Deb and his elaborate scheme to re-connect with Dexter. If not, you could find yourself without a leg to stand on in the end."
+  "bio":"[Season 1]<br />You're obviously detail-oriented and likely drawn to all things science-related for 'Biney' to draw your match. Dexter's long-lost biological brother can be a bro to you, too, and you should solidify that bond over a nice, frozen drink, since's he's gained notoriety as Miami's one and only 'Ice Truck Killer.' Be sympathetic with Brian as he carries on about his romance with Deb and his elaborate scheme to re-connect with Dexter. If not, you could find yourself without a leg to stand on in the end."
 },
 {
   "name":"Lila Tournay",
@@ -78,7 +78,7 @@ module.exports =
   "scores":[
     3, 0, 0, 0, 0, 4, 5, 0, 2, 2
     ],
-  "bio":"[Season 5]<br />Your new pal is outgoing like you by virtue of being a renowned author and motivational speaker. Although he might deny it over a robust Sumatra or a hoppy IPA, he's also the leader of the Barrel Girl Gang; a group of his less-savory friends who are a rogue's gallery of sadists responsible for abducting and commiting unspeakable acts of violence to several women before ultimately killing them and stuffing their remains into large barrels. Despite this comrade's charm, it's best to make other plans if he invites you on a tour of his childhood summer camp, though."
+  "bio":"[Season 5]<br />Your new pal is outgoing like you by virtue of being a renowned author and motivational speaker. Although he might deny it over a robust Sumatra or a hoppy IPA, he's also the leader of the Barrel Girl Gang; a group of his less-savory friends who are a rogue's gallery of sadists responsible for abducting and committing unspeakable acts of violence to several women before ultimately killing them and stuffing their remains into large barrels. Despite this comrade's charm, it's best to make other plans if he invites you on a tour of his childhood summer camp, though."
 },
 {
   "name":"Travis Marshall",
@@ -86,7 +86,7 @@ module.exports =
   "scores":[
     0, 2, 0, 1, 1, 1, 0, 5, 2, 1
     ],
-  "bio":"[Season 6]<br />Something about your spiritual nature pairs you with the Doomsday Killer. Maybe it's biblical prowess or a keen interest in ancient ritual that brings you two together, but whatever that revelation is in the end, rest assured both of you can surely sacrifice a dark and stormy evening or two scripting plans to hang out in communion over a nice chalice of sacremental wine somewhere."
+  "bio":"[Season 6]<br />Something about your spiritual nature pairs you with the Doomsday Killer. Maybe it's biblical prowess or a keen interest in ancient ritual that brings you two together, but whatever that revelation is in the end, rest assured both of you can surely sacrifice a dark and stormy evening or two scripting plans to hang out in communion over a nice chalice of sacramental wine somewhere."
 },
 {
   "name":"Hannah McKay",
@@ -94,7 +94,7 @@ module.exports =
   "scores":[
     2, 4, 4, 1, 4, 2, 0, 0, 5, 4
     ],
-  "bio":"[Season 7]<br />    patient"
+  "bio":"[Season 7]<br />    patient<br />You will find yourself intrigued with your intoxicatingly toxic florist BFF; wanting to spend lots of quality time together reminiscing about..."
 },
 {
   "name":"Oliver Saxon (Daniel Vogel)",
@@ -102,7 +102,7 @@ module.exports =
   "scores":[
     4, 0, 0, 4, 4, 0, 0, 0, 4, 5
     ],
-  "bio":"[Season 8]<br />An urge to get even is the thread you have in common with your new Brain Surgeon of a companion. If you have half a mind to meet up by the pool for a few brewskis, you will be wise to let him carry on about all of his mommy issues. Anyone with any gray matter left upstairs will be able to tell right away that this is the way to win this potential buddy's loyalty."
+  "bio":"[Season 8]<br />An urge to get even is the thread you have in common with your new 'Brain Surgeon' of a companion. If you have half a mind to meet up by the pool for a few brewskis, you will be wise to let him carry on about all of his mommy issues. Anyone with any gray matter left upstairs will be able to tell right away that this is the way to win this potential buddy's loyalty."
 }
 	/*{
 	  "name":"Dexter Morgan",
