@@ -14,7 +14,11 @@ Express is used to handle routing, so the app is deployed to Heroku in order to 
 
 (graphic of file structure?)
 
-Your server.js file should require the basic npm packages we've used in class: express, body-parser and path.
+The setup starts with express, body-parser, and path as required npm packages called by server.js.
+
+The htmlRoutes.js file contains the following routes:
+
+
 
 Your htmlRoutes.js file should include TWO ROUTES:
 
@@ -47,6 +51,8 @@ This full-stack site will take in results from your users' surveys,
 then compare their answers with those from other users. 
 
 The app will then display the name and picture of the user with the best overall match.
+
+Your server.js file should require the basic npm packages we've used in class: express, body-parser and path.
 
 - - -
 
