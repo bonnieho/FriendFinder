@@ -6,9 +6,7 @@ Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-fri
 
 In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; something akin to a basic dating app. The concept is to take in results input by a user into a simple survey and then compare those answers with profiles *(previously pre-populated by the author)* from other users. The result of that comparison will yield a modal containing the name, picture, and a brief introduction of the overall match based on the user's survey choices.
 
-
-You will use Express to handle routing. Make sure you deploy your app to Heroku so other users can fill it out.
-Your survey should have 10 questions of your choosing. Each answer should be on a scale of 1 to 5 based on how much the user agrees or disagrees with a question.
+Express is used to handle routing, so the app is deployed to Heroku in order to allow users to access it in a live environment and complete the questionnaire portion. This survey has 10 questions - each on a scale of 1 to 5 - that relate to personality traits in order to determine the degree of compatibility with specific 'friends' currently stored as an array of objects in the friends.js file.
 
 - - -
 
