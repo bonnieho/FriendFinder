@@ -2,6 +2,8 @@
 
 body {
 	background-image: url(../images/blood_splat_bg.jpg);
+	color: #900;
+	padding-bottom: 48px;
 }
 
 hr {
@@ -75,14 +77,75 @@ h4.wrap {
 }
 
 footer {
+	width: 78%;
 	margin-bottom: 24px;
 	text-align: center;
+	margin: auto;
 }
 
 footer p {
 	background-color: rgba(248, 248, 248, 0.9); /* lt. gray with opacity */;
 	padding: 12px;
+	color: #900;
 	text-align: center;
+	margin: auto;
+}
+
+.footer-text {
+	font-size: 80%;
+	width: 78%;
+	text-align: center;
+	margin: auto;
+}
+
+/* ==============  OVERRIDE of Bootstrap 3 btn-danger class to get a darker red hue  ======================= */
+
+
+.btn-danger {
+	color:#fff;
+	/* Bootstrap original settings 
+	background-color:#d9534f;
+	border-color:#d43f3a */
+	background-color:#c9302c;
+	border-color:#ac2925;
+}
+
+.btn-danger.focus,.btn-danger:focus {
+	color:#fff;
+	/* Bootstrap original settings 
+	background-color:#c9302c;
+	border-color:#761c19 */
+	background-color:#700f0c;
+	border-color:#ac2925;
+}
+
+.btn-danger:hover {
+	color:#fff;
+	/* Bootstrap original settings 
+	background-color:#c9302c;
+	border-color:#ac2925 */
+	background-color:#ac2925;
+	border-color:#900;
+}
+
+.btn-danger:active {
+	color:#fff;
+	/* Bootstrap original settings 
+	background-color:#c9302c;
+	border-color:#ac2925 background-color:#700f0c;
+	border-color:#ac2925; */
+	/* this is not changing right now */
+	background-color:#700f0c; 
+	border-color:#ac2925
+}
+
+.btn-danger.active.focus,.btn-danger.active:focus {
+	color:#fff;
+	/* Bootstrap original settings 
+	background-color:#ac2925;
+	border-color:#761c19 */
+	background-color:#700f0c;
+	border-color:#ac2925;
 }
 
 
