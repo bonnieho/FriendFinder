@@ -14,17 +14,17 @@ Express is used to handle routing, so the app is deployed to Heroku in order to 
 
 (graphic of file structure?)
 
-The setup starts with express, body-parser, and path as required npm packages called by server.js.
+Required npm packages, express, body-parser, and path are called by server.js.
 
 The htmlRoutes.js file contains the following routes:
 
 
 
-Your htmlRoutes.js file should include TWO ROUTES:
+The htmlRoutes.js file includes the following two routes:
 
-A GET Route to /survey which should display the survey page.
+A GET Route to /survey that displays the survey page.
 
-A default, catch-all route that leads to home.html which displays the home page.
+A default (catch-all) route that leads to home.html which displays the home page.
 
 
 
