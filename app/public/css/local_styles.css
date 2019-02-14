@@ -124,7 +124,9 @@ footer p {
 	/* Bootstrap original settings 
 	background-color:#c9302c;
 	border-color:#ac2925 */
-	background-color:#ac2925;
+	/* darker but hopes to be even darker still background-color:#ac2925; */
+	/* trying this */
+	background-color:#700f0c; 
 	border-color:#900;
 }
 
