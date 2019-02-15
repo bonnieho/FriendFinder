@@ -116,6 +116,7 @@ footer p {
 	background-color:#c9302c;
 	border-color:#761c19 */
 	background-color:#700f0c;
+	background-color:#490604;
 	border-color:#ac2925;
 }
 
@@ -127,6 +128,7 @@ footer p {
 	/* darker but hopes to be even darker still background-color:#ac2925; */
 	/* trying this */
 	background-color:#700f0c; 
+	
 	border-color:#900;
 }
 
@@ -138,6 +140,7 @@ footer p {
 	border-color:#ac2925; */
 	/* this is not changing right now */
 	background-color:#700f0c; 
+	background-color:#490604;
 	border-color:#ac2925
 }
 
@@ -146,7 +149,9 @@ footer p {
 	/* Bootstrap original settings 
 	background-color:#ac2925;
 	border-color:#761c19 */
-	background-color:#700f0c;
+	
+	background-color:#700f0c; 
+	background-color:#490604;
 	border-color:#ac2925;
 }
 
