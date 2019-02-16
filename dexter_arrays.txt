@@ -157,7 +157,7 @@ torta cubano
     0, 5, 0, 0, 2, 2, 0, 0, 0, 0
     ],
   "bio":"[Seasons 1-8 (all)]<br />9  Don't let the tough persona fool you - Dexter's potty-mouthed foster sister comes up in the spoon as your new homie as you both share an undefatigable sense of loyalty to those you care about.  
-Along with her crass and impulsive personality, Deb will definitely make you feel like you're hanging with one of the guys although before long, you'll see how she definitely wears her emotions on her sleeve.
+Along with her crass and impulsive personality, Deb will definitely make you feel like you're hanging with one of the guys although it won't be long before you'll see how she definitely wears her emotions on her sleeve.
 Make note of Deb's frustration at Dexter for not opening up more emotionally. love for her brother - even kill for you
 
 foul-mouthed
@@ -180,7 +180,7 @@ Even kill to protect her brother
   "scores":[
     4, 0, 5, 4, 4, 3, 1, 0, 4, 2
     ],
-  "bio":"[Season 1]<br />27 You're obviously detail-oriented and likely drawn to all things science-related for 'Biney' to draw your match. Dexter's long-lost biological brother can be a bro to you, too, and you should solidify that bond over a nice, frozen drink, since's he's gained notoriety as Miami's one and only 'Ice Truck Killer'. Be sympathetic with Brian as he carries on about his romance with Deb and his elaborate scheme to re-connect with Dexter. If not, you could find yourself without a leg to stand on in the end."
+  "bio":"[Season 1]<br />27 You're obviously detail-oriented and likely drawn to all things science-related for 'Biney' to draw your match. Dexter's long-lost biological brother can be a bro to you, too, and you should solidify that bond over a nice batido or other frozen drink, since's he's gained notoriety as Miami's one and only 'Ice Truck Killer'. Be sympathetic with Brian as he carries on about his romance with Deb and his elaborate scheme to re-connect with Dexter. If not, you could find yourself without a leg to stand on in the end."
 },
 {
   "name":"Lila Tournay",
@@ -229,8 +229,6 @@ Even kill to protect her brother
     2, 4, 4, 1, 4, 2, 0, 0, 5, 4
     ],
   "bio":"[Seasons 7 and 8]<br />26 You will find yourself intrigued with your intoxicatingly toxic florist BFF; wanting to spend lots of quality time together reminiscing about  
-
-
 
 . Both of you are exceedingly patient and cunning and can look forward to swapping tales of weaving your own webs to get what you want. Steer clear of libations even as seemingly benign as a lovely cup of herbal tea though, as this new pal with a green thumb and a checkered past has a bad habit of poisoning those who get too close"
 },

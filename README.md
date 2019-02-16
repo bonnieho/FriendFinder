@@ -14,44 +14,37 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 (graphic of file structure?)
 
-Required npm packages, express, body-parser, and path are called by server.js.
-
-The htmlRoutes.js file contains the following routes:
-
-There is a GET Route to /survey that calls and renders the 'survey' page.
-
-As well, there is a default (catch-all) route that leads to home.html which displays the 'home' page.
+* Required npm packages, express, body-parser, and path are called by server.js.
 
 
+* The htmlRoutes.js file contains the following routes:
 
+   * There is a GET Route to /survey that calls and renders the 'survey' page.
 
-The apiRoutes.js file contains the following two routes:
-
-A GET route with the url /api/friends that is used to (call?) display a JSON object of all possible friends.
-
-A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
+   * As well, there is a default (catch-all) route that leads to home.html which displays the 'home' page.
 
 
 
-The application's data inside of app/data/friends.js was saved as an array of objects. Each of these objects should roughly follow the format below: (pic ?)
+* The apiRoutes.js file contains the following two routes:
 
-The closest match is the user with the least amount of difference.
+   * A GET route with the url /api/friends that is used to (call?) display a JSON object of all possible friends.
 
-(pic?) Once you've found the current user's most compatible friend, display the result as a modal pop-up.
+   * A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
 
-The modal should display both the name and picture of the closest match.)
 
-- - -
 
-In this activity, you'll build a compatibility-based "FriendFinder" application -- basically a dating app. 
+* The application's data inside of app/data/friends.js was saved as an array of objects. Each of these objects should roughly follow the format below: (pic ?)
 
-This full-stack site will take in results from your users' surveys, 
+(The closest match is the user with the least amount of difference.)
 
-then compare their answers with those from other users. 
 
-The app will then display the name and picture of the user with the best overall match.
 
-Your server.js file should require the basic npm packages we've used in class: express, body-parser and path.
+Resulting modal display:
+
+(pic?) Once the compatibility logic has been processed, a pop-up window (modal) is called to display the most compatible friend resulting from the user's survey results.
+
+This modal displays both the name and picture of the closest match, as well as a short bio of the character which is intended to verify the personality compatibility with the user!
+
 
 - - -
 
