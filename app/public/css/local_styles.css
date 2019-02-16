@@ -107,54 +107,69 @@ footer p {
 	/* Bootstrap original settings 
 	background-color:#d9534f;
 	border-color:#d43f3a */
-	background-color:#c9302c;
-	border-color:#ac2925;
-}
-
-.btn-danger.focus,.btn-danger:focus {
-	color:#fff;
-	/* Bootstrap original settings 
-	background-color:#c9302c;
-	border-color:#761c19 */
-	background-color:#700f0c;
-	background-color:#490604;
-	border-color:#ac2925;
-}
-
-.btn-danger:hover {
-	color:#fff;
-	/* Bootstrap original settings 
-	background-color:#c9302c;
-	border-color:#ac2925 */
-	/* darker but hopes to be even darker still background-color:#ac2925; */
-	/* trying this */
-	background-color:#700f0c; 
-	
+	background-color:#ac2925;
 	border-color:#900;
 }
 
-.btn-danger:active {
+/* .btn-danger.focus,.btn-danger:focus {
+	color:#fff; */
+	/* Bootstrap original settings 
+	background-color:#c9302c;
+	border-color:#761c19 */
+	
+	/* lighter */
+	/* background-color:#c9302c; */
+	/* darker */
+	/* background-color:#700f0c; */
+	/* darkest */
+	/* background-color:#490604; */
+	/* med dark */
+	/* border-color:#900; */
+	/* medium */
+	/* border-color:#ac2925; */
+/* } */
+
+.btn-danger:hover {
 	color:#fff;
+/* original lighter shade
+	background-color:#c9302c;
+	border-color:#ac2925;
+	*/
+	background-color:#db2b26;
+	border-color:#ac2925;
+}
+
+/* .btn-danger:active {
+	color:#fff; */
 	/* Bootstrap original settings 
 	background-color:#c9302c;
 	border-color:#ac2925 background-color:#700f0c;
 	border-color:#ac2925; */
 	/* this is not changing right now */
-	background-color:#700f0c; 
+	/* background-color:#700f0c; 
 	background-color:#490604;
+	background-color:#c9302c;
 	border-color:#ac2925
+} */
+
+.btn-danger:active {
+    cursor: pointer;
+    color:#fff;
+    /* darker */
+	background-color:#700f0c;
+	/* darkest */
+	border-color:#490604;
 }
 
 .btn-danger.active.focus,.btn-danger.active:focus {
-	color:#fff;
-	/* Bootstrap original settings 
-	background-color:#ac2925;
-	border-color:#761c19 */
-	
-	background-color:#700f0c; 
-	background-color:#490604;
-	border-color:#ac2925;
-}
+	cursor: pointer;
+    color:#fff;
+    /* darker */
+	background-color:#700f0c;
+	/* darkest */
+	border-color:#490604;
+	}
+
 
 
 
