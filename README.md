@@ -4,9 +4,9 @@ Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-fri
 
 ## Overview
 
-In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; something akin to a basic dating app. The concept is to take in results input by a user into a simple survey and then compare those answers with profiles *(previously pre-populated by the author)* from other users. The result of that comparison will yield a modal containing the name, picture, and a brief introduction of the overall match based on the user's survey choices.
+In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; essentially, a rudimentary dating app. The concept is to take in results input by a user into a simple survey and then compare those answers with profiles *(previously pre-populated by the author)* from other users. The result of that comparison will yield a modal containing the name, picture, and a brief introduction of the overall match based on the user's survey choices.
 
-Express is used to handle routing, so the app is deployed to Heroku in order to allow users to access it in a live environment and complete the questionnaire portion. This survey has 10 questions - each on a scale of 1 to 5 - that relate to personality traits in order to determine the degree of compatibility with specific 'friends' currently stored as an array of objects in the friends.js file.
+Express is used to handle routing, so this necessitated deployment to Heroku in order to allow users to access it in a live environment and complete the questionnaire portion. This survey has 10 questions - each on a scale of 1 to 5 - that relate to personality traits in order to determine the degree of compatibility with specific 'friends' currently stored as an array of objects in the friends.js file.
 
 - - -
 
@@ -18,21 +18,19 @@ Required npm packages, express, body-parser, and path are called by server.js.
 
 The htmlRoutes.js file contains the following routes:
 
+There is a GET Route to /survey that calls and renders the 'survey' page.
 
+As well, there is a default (catch-all) route that leads to home.html which displays the 'home' page.
 
-The htmlRoutes.js file includes the following two routes:
-
-A GET Route to /survey that displays the survey page.
-
-A default (catch-all) route that leads to home.html which displays the home page.
 
 
 
 The apiRoutes.js file contains the following two routes:
 
-A GET route with the url /api/friends that is used to display a JSON object of all possible friends.
+A GET route with the url /api/friends that is used to (call?) display a JSON object of all possible friends.
 
-A POST route /api/friends that is used to handle incoming survey results. This route is also used to handle the compatibility logic.
+A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
+
 
 
 The application's data inside of app/data/friends.js was saved as an array of objects. Each of these objects should roughly follow the format below: (pic ?)

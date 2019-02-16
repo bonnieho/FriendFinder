@@ -99,23 +99,17 @@ footer p {
 	margin: auto;
 }
 
-/* ==============  OVERRIDE of Bootstrap 3 btn-danger class to get a darker red hue  ======================= */
+/* ==============  OVERRIDE of Bootstrap 3 btn-danger class to get both lighter and darker red hues  ======================= */
 
 
 .btn-danger {
 	color:#fff;
-	/* Bootstrap original settings 
-	background-color:#d9534f;
-	border-color:#d43f3a */
 	background-color:#ac2925;
 	border-color:#900;
 }
 
 /* .btn-danger.focus,.btn-danger:focus {
 	color:#fff; */
-	/* Bootstrap original settings 
-	background-color:#c9302c;
-	border-color:#761c19 */
 	
 	/* lighter */
 	/* background-color:#c9302c; */
@@ -131,7 +125,7 @@ footer p {
 
 .btn-danger:hover {
 	color:#fff;
-/* original lighter shade
+/* original lighter shade in case I want to revert
 	background-color:#c9302c;
 	border-color:#ac2925;
 	*/
@@ -139,18 +133,6 @@ footer p {
 	border-color:#ac2925;
 }
 
-/* .btn-danger:active {
-	color:#fff; */
-	/* Bootstrap original settings 
-	background-color:#c9302c;
-	border-color:#ac2925 background-color:#700f0c;
-	border-color:#ac2925; */
-	/* this is not changing right now */
-	/* background-color:#700f0c; 
-	background-color:#490604;
-	background-color:#c9302c;
-	border-color:#ac2925
-} */
 
 .btn-danger:active {
     cursor: pointer;
