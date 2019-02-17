@@ -28,16 +28,19 @@
 			
 			<div class="jumbotron">
 				<h1 class="">Friend Finder</h1>
-				<p>This "Friend Finder" app will match you up with the serial killer from the Showtime&#8482; series, Dexter, that you would most likely enjoy having a beer with.</p>
+				<p>This "Friend Finder" app will match you up with the serial killer from the Showtime&#8482; series, Dexter, that you would most likely enjoy hanging out with.</p>
 				<hr>
 				<h2 class="">Answer a few basic questions. </h2>
 				<h2 class="">Then, find your new serial killer bff with the greatest compatibility!</h2>
 				<br>
 				
-				<!-- VALIDATION problem - button container cannot be a child of anchor - also, h4 cannot be child of button -->
-				<div class="">
-					<a href="/survey"><button type="button" class="btn-danger btn-lg btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button></a>	
-				</div>
+				<!-- Button advancing to survey page -->
+				<h4>
+					<button type="button" class="btn-danger btn-lg btn-primary" onClick="location.href='/survey'">
+						<span class="glyphicon glyphicon-list-alt"></span> Go to Survey 
+					</button>
+				</h4>	
+				
 			<!-- END jumbotron -->
 			</div>
 
@@ -48,10 +51,10 @@
 		        <p class="ital footer-text">
 				&#064;2017-2019 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a>&#160;&#160;(Created as a requirement toward the completion of The University of Texas at Houston Coding Bootcamp)<br />
 				SYNOPSIS: In this assignment, a compatibility-based "FriendFinder" application is created that takes in results from a survey and then compares the answers with those from other users to produce a potential "friend" based on similar character traits. Express is used to handle routing with final app deployment to Heroku.<br /> 
-				DISCLAIMER: The content of this exercise is used solely for educational purposes. The author has no affiliation with the Dexter television series, the Showtime network, or 'Darkly Dreaming Dexter' author Jeff Lindsay and his publishers, hence no assumption of endorsement of any of the aforementioned content owners should be implied.
+				DISCLAIMER: The content of this exercise is used solely for educational purposes. The author has no affiliation with the Dexter television series, the Showtime network, or 'Darkly Dreaming Dexter' author Jeff Lindsay and his publishers, hence no assumption of endorsement of any of the aforementioned content owners should be implied. 
 				</p>
 		    </footer>
-		    
+
 		<!-- END container -->
 		</div>
 

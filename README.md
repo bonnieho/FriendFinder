@@ -10,7 +10,7 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 In the interest of basing this exercise in the concept of a theme - for an added twist - I chose one of my favorite television series, Dexter; a show which ran on the Showtime cable network in original production for eight seasons from 2006 to 2013. The "friends" that the app's user can be matched with are either: the primary *antagonist* (mostly serial killers) from each season, someone within Dexter's inner circle, or even the show's main character, Dexter, himself.
 
-[screenshot of landing page](https://foo.com/foo.png)
+![screenshot of landing page](screenshots/01_FriendFinder_home.png)
 
 - - -
 
@@ -22,21 +22,21 @@ In the interest of basing this exercise in the concept of a theme - for an added
 .
 ├── app
 │   ├── data
-│	│	└── friends.js
-│	│	
-│	├── public
-│	│	├── css
-│	│	│   └── local_styles.css
-│	│	│
-│	│	├── images
-│	│	│   └── (multiple images used in home and survey pages)
-│	│	│	
-│	│	├── home.html
-│	│	└── survey.html
-│	│ 
-│	└── routing
-│		├── apiRoutes.js
-│		└── htmlRoutes.js
+│   │   └── friends.js
+│   │	
+│   ├── public
+│   │   ├── css
+│	│	│   └── local_styles.css
+│   │   │
+│   │   ├── images
+│   │   │   └── (multiple images used in home and survey pages)
+│   │   │	
+│   │   ├── home.html
+│   │   └── survey.html
+│   │
+│   └── routing
+│       ├── apiRoutes.js
+│       └── htmlRoutes.js
 │
 ├── assets
 │   └── images
@@ -67,6 +67,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
    * As well, there is a **default** (catch-all) route that leads to home.html (which displays the 'home' page).
 
+
    ```
 	module.exports = function(app) {
 
@@ -90,6 +91,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
    * A **GET** route with the url `/api/friends` that is used to call (display?) a JSON object of all possible friends.
 
+
    ```
    app.get("/api/friends", function(req, res) {
       res.json(friendData);
@@ -97,6 +99,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
   ```
 
    * A **POST** route `/api/friends` that is used to handle *incoming survey results*. This POST route *also* handles the compatibility logic embedded in the JSON data.
+
 
    ```
    app.post("/api/friends", function(req, res) {
@@ -152,11 +155,12 @@ Each user's results are converted into a simple array of numbers (ex: [5, 1, 4, 
 With that array, the difference between current user's scores is compared against those from other users (the pre-populated 'friends'), question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
 
 Example:
-			```
+
+```
 		User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
 		User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
 		(Total Difference: 2 + 1 + 2 = 5)
-    		```
+```
 
 The *closest* match will be the user with the least amount of difference.
 
@@ -169,6 +173,31 @@ Once the compatibility logic has been processed, a pop-up window (modal) is call
 
 This modal displays both the name and picture of the closest match, as well as a short bio of the character which is intended to verify the personality compatibility with the user!
 
+
+- - -
+
+### In Case you're interested...
+
+#### Local Environment Setup
+
+To use this version of "FriendFinder" from your own local environment, here's what you've got to do:
+
+**Step 1 - Clone this repo in the command line below using the following text:**
+```
+git clone https://github.com/bonnieho/FriendFinder.git
+```
+**Step 2 - In you local directory structure, navigate into the newly cloned repo directory:**
+```
+cd FriendFinder
+```
+**Step 3 - Install the required NPM packages using the following command:**
+```
+npm install
+```
+**Step 4 - Start the application server using the following command:**
+```
+node server.js
+```
 
 - - -
 

@@ -25,6 +25,10 @@ hr {
 	margin: auto;
 }
 
+#innerDiv .chosen-container {
+	margin-bottom: 2em;
+}
+
 input#name{
 	width: 50%;
 }
@@ -35,17 +39,14 @@ input#photo{
 
 .wrap {
 	display: inline;
+	width: 100%;
 }
 
 /* .wrap h3 h4 .chosen-select {
 	display: table-cell;
 }  */
 
-h3.wrap {
-	display: inline;
-	width: 50%;
-} 
-h4.wrap {
+.wrap h3 h4 {
 	display: inline;
 	width: 50%;
 } 
@@ -125,7 +126,7 @@ footer p {
 
 .btn-danger:hover {
 	color:#fff;
-/* original lighter shade in case I want to revert
+	/* original lighter shade in case I want to revert
 	background-color:#c9302c;
 	border-color:#ac2925;
 	*/
