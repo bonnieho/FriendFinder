@@ -1,6 +1,6 @@
 /*
 
-Your apiRoutes.js file should contain two routes:
+The apiRoutes.js file contains two routes:
         A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
         A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
 
@@ -37,7 +37,7 @@ module.exports = function(app) {
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
-  // when a user submits form data (a JSON object) it's then compared to the friendData array members' values
+  // When a user submits form data (a JSON object), it's then compared to the friendData array members' values.
 
   // ---------------------------------------------------------------------------
 
@@ -56,7 +56,7 @@ module.exports = function(app) {
 */
 	var userScores = [];
 	for (i=0; i<req.body.scores.length; i++){
-		userScores.push(parseInt(req.body.scores[i])); // since array members came in a strings, I gotta convert!
+		userScores.push(parseInt(req.body.scores[i])); // since array members came in a string, I gotta convert!
 	}
 
 	var bff;
@@ -67,7 +67,7 @@ module.exports = function(app) {
 		for (j=0; j<userScores.length; j++) {
 			totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
 		}
-		if (totalDifference<smallestDiff){ // keep comparing numbers based on smallest until you have run through all of the members in teh friendData array
+		if (totalDifference<smallestDiff){ // keep comparing numbers based on smallest until you have run through all of the members in the friendData array
 			bff = friendData[i];
 			smallestDiff = totalDifference;
 		}
