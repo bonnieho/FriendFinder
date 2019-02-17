@@ -29,6 +29,10 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
    * A GET route with the url /api/friends that is used to (call?) display a JSON object of all possible friends.
 
+   `app.get("/api/friends", function(req, res) {
+      res.json(friendData);
+  });`
+
    * A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
 
 
