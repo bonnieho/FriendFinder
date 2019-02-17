@@ -39,7 +39,7 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 
 
-Resulting modal display:
+####Resulting modal display:
 
 (pic?) Once the compatibility logic has been processed, a pop-up window (modal) is called to display the most compatible friend resulting from the user's survey results.
 

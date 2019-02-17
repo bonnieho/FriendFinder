@@ -36,9 +36,6 @@
 
 				<h3><strong>About You</strong></h3>
 				<h4>Name (Required)</h4>
-				<!-- VALIDATION PROBLEM - cannot leave name empty -->
-				<!-- <input type="text" name="" id="name" class="form-control" required > -->
-				<!-- see if this new version will work (haven't tested it yet) -->
 				<input type="text" name="userName" id="userName" class="form-control" required />
 
 
@@ -54,8 +51,7 @@
 					<!-- <h4>How organized are you?</h4> -->
 					<h4>Would you consider yourself to be an organized person?</h4>
 				 	<select data-placeholder="" class="chosen-select" id="q1">
-			 			<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-			 			<option value=""></option>
+			 			<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -67,8 +63,7 @@
 					<!-- <h4>How loyal are you?</h4> -->
 					<h4>How loyal are you to the people you care about?</h4>
 				 	<select data-placeholder="" class="chosen-select" id="q2">
-			 			<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-			 			<option value=""></option>
+			 			<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -81,8 +76,7 @@
 				<!-- <h4>How science-minded are you?</h4> -->
 				<h4>How strongly are you drawn to science?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q3">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -95,8 +89,7 @@
 				<!-- <h4>How artistic are you?</h4> -->
 				<h4>Would you consider yourself to be artistic?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q4">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -108,8 +101,7 @@
 				<h3>Question 5</h3>
 				<h4>How much of a risk-taker are you?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q5">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -122,8 +114,7 @@
 				<!-- <h4>How angry are you?</h4> -->
 				<h4>To what degree are you motived by anger?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q6">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -135,8 +126,7 @@
 				<h3>Question 7</h3>
 				<h4>How outgoing are you?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q7">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -148,8 +138,7 @@
 				<!-- <h4>How spiritual are you?</h4> -->
 				<h4>Do you consider yourself to be spiritual?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q8">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -160,8 +149,7 @@
 				<h3>Question 9</h3>
 				<h4>How patient are you?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q9">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -172,8 +160,7 @@
 				<h3>Question 10</h3>
 				<h4>How vindictive are you?</h4>
 			 		<select data-placeholder="" class="chosen-select" id="q10">
-		 				<!-- VALIDATION PROBLEM Element option without attribute label must not be empty.-->
-		 				<option value=""></option>
+		 				<option value="">Select an Option</option>
 		            	<option value="5">5 (Strongly Agree)</option>
 			   			<option value="4">4</option>
 				    	<option value="3">3 (neutral)</option>
@@ -212,6 +199,7 @@
 		        	<h2 class="modal-title"><strong>Best Match</strong></h2>
 		      	</div>
 		      	<div class="modal-body">
+		      		<!-- VALIDATION ERROR "Empty heading." -->
 		        	<h2 id="matchName"></h2>
 		        	<div id=holder>
 		        		<img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
