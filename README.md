@@ -16,31 +16,31 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
 ### Behind the Scenes of the App:
 
-####File Structure
+#### File Structure
 
 ```
 .
 ├── app
 │   ├── data
-│	│ 	└── friends.js
+│	│	└── friends.js
 │	│	
 │	├── public
 │	│	├── css
-│   │   │   └── local_styles.css
+│	│	│   └── local_styles.css
 │	│	│
-│   │   ├── images
-│ 	│ 	│   └── (multiple images used in home and survey pages)
-│ 	│ 	│	
-│ 	│ 	├── home.html
-│   │   └── survey.html
-│   │ 
-│   └── routing
-│ 		├── apiRoutes.js
-│   	└── htmlRoutes.js
+│	│	├── images
+│	│	│   └── (multiple images used in home and survey pages)
+│	│	│	
+│	│	├── home.html
+│	│	└── survey.html
+│	│ 
+│	└── routing
+│		├── apiRoutes.js
+│		└── htmlRoutes.js
 │
 ├── assets
 │   └── images
-│ 		└── (multiple images used in modal)
+│		└── (multiple images used in modal)
 │
 ├── node_modules
 │	└── (multiple module directories)
@@ -56,9 +56,9 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
 ```
 
-####File and directory functionality of note:
+#### File and directory functionality of note:
 
-* Required npm packages, **express**, **body-parser**, and **path** are called by `server.js`.
+* Required npm packages, **express**, **body-parser**, and **path** are called by *`server.js`*.
 
 
 * The **`htmlRoutes.js`** file contains the following routes:
@@ -145,7 +145,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 ```
 
 
-####Compatibility Logic
+#### Compatibility Logic
 
 Each user's results are converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 
@@ -153,15 +153,15 @@ With that array, the difference between current user's scores is compared agains
 
 Example:
 			```
-            User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-            User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-            Total Difference: 2 + 1 + 2 = 5
+		User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+		User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+		(Total Difference: 2 + 1 + 2 = 5)
     		```
 
 The *closest* match will be the user with the least amount of difference.
 
 
-####Resulting modal display:
+#### Resulting modal display:
 
 Once the compatibility logic has been processed, a pop-up window (modal) is called to display the most compatible friend resulting from the user's survey results. *Example:*
 
