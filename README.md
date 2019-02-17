@@ -29,43 +29,46 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
    * A GET route with the url /api/friends that is used to call (display?) a JSON object of all possible friends.
 
-   ```app.get("/api/friends", function(req, res) {\n
-      res.json(friendData);\n
-  });```
+   ```
+   app.get("/api/friends", function(req, res) {
+      res.json(friendData);
+  });
+  ```
 
    * A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
 
-   ```app.post("/api/friends", function(req, res) {\n
-	var userScores = [];\n
-	for (i=0; i<req.body.scores.length; i++){\n
-		userScores.push(parseInt(req.body.scores[i])); // since array members came in a strings, I gotta convert!\n
-	}\n
-	var bff;\n
-	var smallestDiff = 9999; // ridiculously large number to use for comparison\n
-	for (i=0; i<friendData.length; i++){\n
-		var friendScores = friendData[i].scores;\n
-		var totalDifference = 0;\n
-		for (j=0; j<userScores.length; j++) {\n
-			totalDifference += Math.abs(userScores[j]-friendScores[j]);\n
-		}\n
-		if (totalDifference<smallestDiff){\n
-			bff = friendData[i];\n
-			smallestDiff = totalDifference;\n
-		}\n
-	}\n
-	res.json(bff);\n
-  });```
+   ```
+   app.post("/api/friends", function(req, res) {
+	var userScores = [];
+	for (i=0; i<req.body.scores.length; i++){
+		userScores.push(parseInt(req.body.scores[i])); // since array members came in a strings, I gotta convert!
+	}
+	var bff;
+	var smallestDiff = 9999; // ridiculously large number to use for comparison
+	for (i=0; i<friendData.length; i++){
+		var friendScores = friendData[i].scores;
+		var totalDifference = 0;
+		for (j=0; j<userScores.length; j++) {
+			totalDifference += Math.abs(userScores[j]-friendScores[j]);
+		}
+		if (totalDifference<smallestDiff){
+			bff = friendData[i];
+			smallestDiff = totalDifference;
+		}
+	}
+	res.json(bff);
+  });
+  ```
 
-/*
-    Convert each user's results into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-        With that done, compare the difference between current user's scores against those from other users, question by question. Add up the differences to calculate the totalDifference.
-            Example:
-                User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
-                User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
-                Total Difference: 2 + 1 + 2 = 5
-        Remember to use the absolute value of the differences. Put another way: no negative solutions! Your app should calculate both 5-3 and 3-5 as 2, and so on.
-        The closest match will be the user with the least amount of difference.
-*/
+
+Each user's results are converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
+    With that array, the difference between current user's scores is compared against those from other users (the pre-populated 'friends,' question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
+        Example:
+            User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
+            User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
+            Total Difference: 2 + 1 + 2 = 5
+    
+The closest match will be the user with the least amount of difference.
 
 
 * The application's data inside of app/data/friends.js was saved as an array of objects. Each of these objects should roughly follow the format below: (pic ?)
