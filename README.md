@@ -67,6 +67,7 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
         The closest match will be the user with the least amount of difference.
 */
 
+
 * The application's data inside of app/data/friends.js was saved as an array of objects. Each of these objects should roughly follow the format below: (pic ?)
 
 (The closest match is the user with the least amount of difference.)
