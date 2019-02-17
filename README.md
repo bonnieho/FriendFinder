@@ -14,18 +14,38 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 (graphic of file structure?)
 
-* Required npm packages, express, body-parser, and path are called by server.js.
+* Required npm packages, **express**, **body-parser**, and **path** are called by *server.js*.
 
 
-* The htmlRoutes.js file contains the following routes:
+* The **htmlRoutes.js** file contains the following routes:
 
    * There is a GET Route to /survey that calls and renders the 'survey' page.
 
    * As well, there is a default (catch-all) route that leads to home.html which displays the 'home' page.
 
+   ```
+module.exports = function(app) {
+
+  app.get("/survey", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/survey.html"));
+  });
+
+  app.get("/images/Favicon.ico", function(req, res) {
+    console.log(req.url);
+    res.sendFile(path.join(__dirname, req.url));
+  });
+
+  // If no matching route is found default to home
+  app.get("*", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/home.html"));
+  });
+
+};
+   ```
 
 
-* The apiRoutes.js file contains the following two routes:
+
+* The **apiRoutes.js** file contains the following two routes:
 
    * A GET route with the url /api/friends that is used to call (display?) a JSON object of all possible friends.
 
@@ -62,7 +82,7 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 
 Each user's results are converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
-    With that array, the difference between current user's scores is compared against those from other users (the pre-populated 'friends,' question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
+    With that array, the difference between current user's scores is compared against those from other users (the pre-populated 'friends'), question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
         Example:
             User 1: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]
             User 2: [3, 2, 6, 4, 5, 1, 2, 5, 4, 1]
