@@ -27,13 +27,34 @@ Express is used to handle routing, so this necessitated deployment to Heroku in 
 
 * The apiRoutes.js file contains the following two routes:
 
-   * A GET route with the url /api/friends that is used to (call?) display a JSON object of all possible friends.
+   * A GET route with the url /api/friends that is used to call (display?) a JSON object of all possible friends.
 
-   `app.get("/api/friends", function(req, res) {
-      res.json(friendData);
+   `app.get("/api/friends", function(req, res) {\n
+      res.json(friendData);\n
   });`
 
    * A POST route /api/friends that is used to handle incoming survey results. This POST route also handles the compatibility logic embedded in the JSON data.
+
+   `app.post("/api/friends", function(req, res) {\n
+	var userScores = [];\n
+	for (i=0; i<req.body.scores.length; i++){\n
+		userScores.push(parseInt(req.body.scores[i])); // since array members came in a strings, I gotta convert!\n
+	}\n
+	var bff;\n
+	var smallestDiff = 9999; // ridiculously large number to use for comparison\n
+	for (i=0; i<friendData.length; i++){\n
+		var friendScores = friendData[i].scores;\n
+		var totalDifference = 0;\n
+		for (j=0; j<userScores.length; j++) {\n
+			totalDifference += Math.abs(userScores[j]-friendScores[j]);\n
+		}\n
+		if (totalDifference<smallestDiff){\n
+			bff = friendData[i];\n
+			smallestDiff = totalDifference;\n
+		}\n
+	}\n
+	res.json(bff);\n
+  });`
 
 
 
