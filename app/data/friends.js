@@ -4,7 +4,7 @@ module.exports =
   "name":"Dexter Morgan",
   "photo":"http://youkidsgetoffmylawn.org/dexter_images/Dexter_Morgan.png",
   "scores":[
-    5, 4, 5, 0, 5, 1, 0, 0, 5, 3
+    5, 3, 5, 1, 5, 1, 0, 0, 5, 3
     ],
   "bio":"[Seasons 1-8 (all)]<br /> 28 organized"
 },

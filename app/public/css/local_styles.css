@@ -57,6 +57,10 @@ button {
 	margin-bottom: 4em;
 }
 
+.marg {
+	margin-bottom: 2em;
+}
+
 .jumbotron {
 	margin-top: 2em;
 	padding: 1em;
@@ -133,11 +137,13 @@ footer p {
 
 footer a:link {
 	color: #900;
+	font-weight: bold;
 	text-decoration: none;
 }
 
 footer a:visited {
 	color: #900;
+	font-weight: bold;
 	text-decoration: none;
 }
 
