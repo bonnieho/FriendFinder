@@ -26,7 +26,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 │   │	
 │   ├── public
 │   │   ├── css
-│	│   │   └── local_styles.css
+│   │   └── local_styles.css
 │   │   │
 │   │   ├── images
 │   │   │   └── (multiple images used in home and survey pages)
@@ -89,7 +89,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
 * The **`apiRoutes.js`** file contains the following two routes:
 
-   * A **GET** route with the url `/api/friends` that is used to call (display?) a JSON object of all possible friends.
+   * A **GET** route with the url `/api/friends` that is used to call a JSON object of all possible friends.
 
 
    ```
@@ -178,7 +178,8 @@ This modal displays both the name and picture of the closest match, as well as a
 
 ### In case you're interested...
 
-Again, you can interact with this application in real-time at the following address: [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
+Again, you can interact with this application in real-time at the following address:\n
+[https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
 
 
 #### Local Environment Setup
