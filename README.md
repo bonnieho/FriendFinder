@@ -26,7 +26,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 │   │	
 │   ├── public
 │   │   ├── css
-│   │   └── local_styles.css
+│   │   │   └── local_styles.css
 │   │   │
 │   │   ├── images
 │   │   │   └── (multiple images used in home and survey pages)
