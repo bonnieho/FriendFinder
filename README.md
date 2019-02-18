@@ -26,7 +26,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 │   │	
 │   ├── public
 │   │   ├── css
-│	│	│   └── local_styles.css
+│	│   │   └── local_styles.css
 │   │   │
 │   │   ├── images
 │   │   │   └── (multiple images used in home and survey pages)
@@ -40,10 +40,10 @@ In the interest of basing this exercise in the concept of a theme - for an added
 │
 ├── assets
 │   └── images
-│		└── (multiple images used in modal)
+│       └── (multiple images used in modal)
 │
 ├── node_modules
-│	└── (multiple module directories)
+│   └── (multiple module directories)
 │
 ├── package-lock.json
 │ 
@@ -63,9 +63,9 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
 * The **`htmlRoutes.js`** file contains the following routes:
 
-   * There is a **GET** route to /survey that calls and renders the 'survey' page.
+   * There is a **GET** route to `/survey` that calls and renders the 'survey' page.
 
-   * As well, there is a **default** (catch-all) route that leads to home.html (which displays the 'home' page).
+   * As well, there is a **default** (catch-all) route that leads to `home.html` (which displays the 'home' page).
 
 
    ```
@@ -131,7 +131,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
   "name":"Hannah McKay",
   "photo":"http://foo.com/dexter_images/Hannah_McKay.png",
   "scores":[
-		2, 
+    	2, 
     	4, 
     	4, 
     	1, 
@@ -162,21 +162,24 @@ Example:
 		(Total Difference: 2 + 1 + 2 = 5)
 ```
 
-The *closest* match will be the user with the least amount of difference.
+The *closest* match will be the user with the **least** amount of difference.
 
 
 #### Resulting modal display:
 
 Once the compatibility logic has been processed, a pop-up window (modal) is called to display the most compatible friend resulting from the user's survey results. *Example:*
 
-[screenshot of modal](https://foo.com/foo.png)
+![screenshot of modal example](screenshots/02_FriendFinder_modal.png)
 
 This modal displays both the name and picture of the closest match, as well as a short bio of the character which is intended to verify the personality compatibility with the user!
 
 
 - - -
 
-### In Case you're interested...
+### In case you're interested...
+
+Again, you can interact with this application in real-time at the following address: [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
+
 
 #### Local Environment Setup
 

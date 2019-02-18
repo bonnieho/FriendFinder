@@ -4,6 +4,21 @@ body {
 	background-image: url(../images/blood_splat_bg.jpg);
 	color: #900;
 	padding-bottom: 48px;
+	/* Too drippy
+	font-family: 'Nosifer', cursive; */
+	/* Too informal
+    font-family: 'Permanent Marker', cursive; */
+	/* Too Halloweenie 
+    font-family: 'Trade Winds', cursive; */
+
+	/* would be ok if tighter kern
+    font-family: 'Contrail One', cursive;  */
+
+	/* the winner so far
+    font-family: 'Yanone Kaffeesatz', sans-serif; */
+
+	/* default */
+    font-family: 'Open Sans', sans-serif;
 }
 
 hr {
@@ -29,29 +44,38 @@ hr {
 	margin-bottom: 2em;
 }
 
-input#name{
+#name input {
 	width: 50%;
 }
 
-input#photo{
+#photo input {
 	width: 50%;
 }
 
-.wrap {
-	display: inline;
-	width: 100%;
+button {
+	/*margin-top: 40px;*/
+	margin-bottom: 4em;
 }
 
-/* .wrap h3 h4 .chosen-select {
-	display: table-cell;
-}  */
+.jumbotron {
+	margin-top: 2em;
+	padding: 1em;
+}
 
-.wrap h3 h4 {
-	display: inline;
-	width: 50%;
-} 
+.jumbotron h2 {
+	font-size: 140%;
+	line-height: 1.25em;
+}
 
-.modal-body #holder{
+.bigitalsmcaps {
+	/* Even better */
+    font-family: 'Fjalla One', sans-serif; 
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.modal-body #holder {
 	display:block;
 	height: 254px;
 	/* border: solid #900 2px; */
@@ -62,7 +86,7 @@ input#photo{
 	margin-right: 0;
 }
 
-.modal-body #matchBio{
+.modal-body #matchBio {
 	float: right;
 	vertical-align: text-top;
 	display:inline;
@@ -71,6 +95,13 @@ input#photo{
 	margin-right: 6px;
 	margin-left: 0;
 	width: 60%;
+}
+
+.modal-backdrop {
+	/* I thought about modifying the backdrop from the default, semi-transparent dk gray, 
+	but it just looks pink with what's below. Just leaving the setup in place for now 
+	in case I want to play around with it later */
+	/* background-color: #900; */
 }
 
 .ital {
@@ -98,6 +129,28 @@ footer p {
 	width: 80%;
 	text-align: center;
 	margin: auto;
+}
+
+footer a:link {
+	color: #900;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #900;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #900;
+	text-decoration: none;
+	border-bottom: 1px dotted #900;
+}
+
+footer a:active {
+	color: #f2010f;
+	text-decoration: none;
+	border-bottom: 1px dotted #f2010f;
 }
 
 /* ==============  OVERRIDE of Bootstrap 3 btn-danger class to get both lighter and darker red hues  ======================= */

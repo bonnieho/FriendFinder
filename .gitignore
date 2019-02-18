@@ -1,5 +1,6 @@
-node_modules
 .DS_Store
-dexter_arrays.txt
+node_modules/
+assets/orig_working/
 instructions.txt
 readme_friendfinder.txt
+dexter_arrays.txt
