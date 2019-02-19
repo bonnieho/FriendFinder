@@ -6,7 +6,7 @@ Published site: [https://dexter-friend-finder.herokuapp.com/](https://dexter-fri
 
 In this activity, a full-stack (two-page) web site was created as a compatibility-based "FriendFinder" application; essentially, a rudimentary dating app. The concept is to take in results input by a user into a simple survey and then compare those answers with profiles *(previously pre-populated by the author)* from "other" users. The result of that comparison will yield a modal containing the name, picture, and a brief introduction of the overall match based on the user's survey choices. 
 
-Express is used to handle routing, so this necessitated deployment to Heroku in order to allow users to access it in a live environment and complete the questionnaire portion. This survey has 10 questions - each on a scale of 1 to 5 - that relate to personality traits in order to determine the degree of compatibility with specific 'friends' currently stored as an array of objects in the friends.js file.
+Express is used to handle routing, so this necessitated deployment to Heroku in order to allow users to access it in a live environment and complete the questionnaire portion. This survey has 10 questions - each on a scale of 1 to 5 - that relate to personality traits in order to determine the degree of compatibility with specific 'friends' currently stored as an array of objects in the `friends.js` file.
 
 In the interest of basing this exercise in the concept of a theme - for an added twist - I chose one of my favorite television series, Dexter; a show which ran on the Showtime cable network in original production for eight seasons from 2006 to 2013. The "friends" that the app's user can be matched with are either: the primary *antagonist* (mostly serial killers) from each season, someone within Dexter's inner circle, or even the show's main character, Dexter, himself.
 
@@ -179,6 +179,7 @@ This modal displays both the name and picture of the closest match, as well as a
 ### In case you're interested...
 
 Again, you can interact with this application in real-time at the following address:
+
 [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
 
 

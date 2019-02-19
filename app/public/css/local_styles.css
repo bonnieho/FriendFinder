@@ -79,6 +79,49 @@ button {
     font-weight: bold;
 }
 
+.modal-header{padding:15px;border-bottom:1px solid #e5e5e5}
+.modal-header .close{margin-top:-2px}
+.modal-title{margin:0;line-height:1.42857143}
+
+.modal-header {
+	/* position: relative; */
+
+	/* FIX this to be fluid depending on content */
+	/* height: 74px; */
+	
+	/* min-height: 50%; */
+	/* .img-responsive 
+    max-height: calc(100vh - 225px); */
+
+    max-height: calc(100vh - 511px);
+
+/*
+	.img-responsive 
+    max-height: 100vh;
+    margin: -113px 0;
+    padding: 113px 0; */
+
+		
+		/* padding-bottom: 4px;
+		margin-bottom: -24px; */
+	/* max-height: 74%; */
+	overflow-y: auto;
+}
+
+h2.modal-title {
+	/*line-height: 1.25em;*/
+	/* display: block; */
+	/*min-height: 1.25em;
+	max-height: 80%;
+	overflow-y: auto;*/
+	border: 1px solid #000;
+}
+
+#playerName {
+	font-style: italic;
+	font-weight: bold;
+}
+
 .modal-body #holder {
 	display:block;
 	height: 254px;
