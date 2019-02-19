@@ -179,7 +179,6 @@ This modal displays both the name and picture of the closest match, as well as a
 ### In case you're interested...
 
 Again, you can interact with this application in real-time at the following address:
-
 [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
 
 

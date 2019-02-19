@@ -84,16 +84,21 @@ button {
 .modal-title{margin:0;line-height:1.42857143}
 
 .modal-header {
-	/* position: relative; */
+	position: relative;
 
 	/* FIX this to be fluid depending on content */
 	/* height: 74px; */
 	
 	/* min-height: 50%; */
-	/* .img-responsive 
-    max-height: calc(100vh - 225px); */
+	/* .img-responsive */
+   /* max-height: calc(100vh - 225px); */
+   /* max-height: calc(100vh - 460px); */
+   height: calc(100vh - 460px);
+     /* max-height: 100vh; */ 
+     /* margin: -113px 0;
+     padding: 113px 0; */
 
-    max-height: calc(100vh - 511px);
+    /* max-height: calc(100vh - 511px); */
 
 /*
 	.img-responsive 
