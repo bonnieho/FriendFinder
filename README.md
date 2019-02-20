@@ -178,8 +178,7 @@ This modal displays both the name and picture of the closest match, as well as a
 
 ### In case you're interested...
 
-Again, you can interact with this application in real-time at the following address:
-[https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
+Again, you can interact with this application in real-time at the following address:  [https://dexter-friend-finder.herokuapp.com/](https://dexter-friend-finder.herokuapp.com/), however, if you'd prefer to kick the tires on your local machine, keep reading.
 
 
 #### Local Environment Setup
@@ -201,6 +200,10 @@ npm install
 **Step 4 - Start the application server using the following command:**
 ```
 node server.js
+```
+**Step 5 - Now, open the local application on port 3000 at the URL:**
+```
+ http://localhost:3000/
 ```
 
 - - -

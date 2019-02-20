@@ -84,32 +84,34 @@ button {
 .modal-title{margin:0;line-height:1.42857143}
 
 .modal-header {
-	position: relative;
-
+	
 	/* FIX this to be fluid depending on content */
 	/* height: 74px; */
-	
 	/* min-height: 50%; */
+
 	/* .img-responsive */
    /* max-height: calc(100vh - 225px); */
    /* max-height: calc(100vh - 460px); */
-   height: calc(100vh - 460px);
+  
      /* max-height: 100vh; */ 
      /* margin: -113px 0;
      padding: 113px 0; */
 
     /* max-height: calc(100vh - 511px); */
-
 /*
 	.img-responsive 
     max-height: 100vh;
     margin: -113px 0;
     padding: 113px 0; */
 
-		
 		/* padding-bottom: 4px;
 		margin-bottom: -24px; */
 	/* max-height: 74%; */
+
+	/* this combination is letting the modal-header adjust as the page resizes,
+	BUT not in response to the h2!  */
+	position: relative;
+	height: calc(100vh - 460px);
 	overflow-y: auto;
 }
 
@@ -119,6 +121,9 @@ h2.modal-title {
 	/*min-height: 1.25em;
 	max-height: 80%;
 	overflow-y: auto;*/
+
+max-height: 100vh;
+	overflow-y: auto;
 	border: 1px solid #000;
 }
 
