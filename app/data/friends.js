@@ -14,7 +14,7 @@ module.exports =
   "scores":[
     0, 5, 0, 0, 2, 2, 0, 0, 0, 0
     ],
-  "bio":"[Seasons 1-8 (all)]<br />Don't let the tough persona fool you - Dexter's potty-mouthed foster sister comes up in the spoon as your new homie as you both share an undefatigable sense of loyalty to those you care about. Along with her crass and impulsive personality, Deb will definitely make you feel like you're hanging with one of the guys although it won't be long before you'll see how much she definitely wears her emotions on her sleeve. You can gain some ground by making note of Deb's frustration at Dexter for not opening up more emotionally. As she has an undying love for her brother, she might even kill for you, too!"
+  "bio":"[Seasons 1-8 (all)]<br />Don't let the tough persona fool you - Dexter's potty-mouthed foster sister comes up in the spoon as your new homie as you both share an undefatigable sense of loyalty to those you care about. Along with her crass and impulsive personality, Deb will definitely make you feel like you're hanging with one of the guys although it won't be long before you'll see how much she definitely wears her emotions on her sleeve. You can gain some ground by making note of Deb's frustration at Dexter for not opening up more emotionally. As she has undying loyalty to her brother - who knows - she might even kill for you, too!"
 },
 {
   "name":"Rudy Cooper (Brian Moser)",
