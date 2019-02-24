@@ -10,6 +10,19 @@
 		<meta name="robots" content="noindex, nofollow" />
 		<!-- favicon --> <link rel="shortcut icon" type="image/xicon" href="./images/Favicon.ico" />
 
+		<!-- Browser tab color setting - Chrome, Firefox OS and Opera -->
+	    <meta name="theme-color" content="#900" />
+	    <!-- Browser tab color setting - Windows Phone -->
+	    <meta name="msapplication-navbutton-color" content="#900" />
+	    <!-- Browser tab color setting - iOS Safari -->
+	    <meta name="apple-mobile-web-app-status-bar-style" content="#900" />
+	        
+	    <!-- Rich Link Preview configuration below -->
+	    <!-- <meta property="og:title" content="" />
+	    <meta property="og:description" content="" />
+	    <meta property="og:url" content="" />
+	    <meta property="og:image" content="images/richpreview_200x300h.png" /> -->
+
 
 		<!-- Latest compiled and minified CSS & JS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -253,14 +266,16 @@
 		<!-- END inner-div -->
 		</div>	
 
-		    <footer class="footer col-sm-12 col-md-12">
-		        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/bonnieho/FriendFinder">GitHub Repo</a></p>
-		        <p class="ital footer-text">
-				&#064;2017-2019 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a>&#160;&#160;(Created as a requirement toward the completion of The University of Texas at Houston Coding Bootcamp)<br />
-				SYNOPSIS: In this assignment, a compatibility-based "FriendFinder" application is created that takes in results from a survey and then compares the answers with those from other users to produce a potential "friend" based on similar character traits. Express is used to handle routing with final app deployment to Heroku.<br />
-				DISCLAIMER: The content of this exercise is used solely for educational purposes. The author has no affiliation with the Dexter television series, the Showtime network, or 'Darkly Dreaming Dexter' author Jeff Lindsay and his publishers, hence no assumption of endorsement of any of the aforementioned content owners should be implied.
-				</p>
-		    </footer>	
+
+	    <footer class="footer col-sm-12 col-md-12">
+	        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/bonnieho/FriendFinder">GitHub Repo</a></p>
+	        <p class="ital footer-text">
+			&#064;2017-2019 <a href="mailto:bonnieho@rice.edu">Bonnie L. Hoffman</a>&#160;&#160;(Created as a requirement toward the completion of The University of Texas at Houston Coding Bootcamp)<br />
+			SYNOPSIS: In this assignment, a compatibility-based "FriendFinder" application is created that takes in results from a survey and then compares the answers with those from other users to produce a potential "friend" based on similar character traits. Express is used to handle routing with final app deployment to Heroku.<br />
+			DISCLAIMER: The content of this exercise is used solely for educational purposes. The author has no affiliation with the Dexter television series, the Showtime network, or 'Darkly Dreaming Dexter' author Jeff Lindsay and his publishers, hence no assumption of endorsement of any of the aforementioned content owners should be implied.
+			</p>
+	    </footer>	
+
 
 		<!-- Modal -->
 		<div id="resultsModal" class="modal fade" role="dialog">
@@ -275,15 +290,15 @@
 				  	<div class="modal-body">
 				    	<h2 id="matchName">&#160;</h2>
 				    	<div id=holder>
-				    		<!-- <div class="row">
-				    			<div class="col-sm-12 col-md-6 col-lg-6"> -->
+				    		<div class="row">
+				    			<div class="col-sm-12 col-md-4 col-lg-4"> 
 					    			<img id="matchImg" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg" alt="">
-					    		<!-- </div>
-					    		<div class="col-sm-12 col-md-6 col-lg-6"> -->
+					    		</div>
+					    		<div class="col-sm-12 col-md-8 col-lg-8">
 					    			<p id="matchBio"></p>
-					    		<!--  </div>
-					    	END row 
-		   					</div> -->
+					    		</div>
+					    	<!-- END row -->
+		   					</div> 
 				   		</div>
 				   		
 				  	</div>

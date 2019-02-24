@@ -142,26 +142,57 @@ h2.modal-title {
 	font-weight: bold;
 }
 
+/* these control the properties of the close button (glyph) in the modal-header  */
+button.close{
+	-webkit-appearance: none;
+	padding: 0;
+	cursor: pointer;
+	background: 0 0;
+	border: 0;
+	color: #333;
+	filter: alpha(opacity=60);
+	opacity: .6;
+}
+
+.close:focus,.close:hover{
+	color: #333;
+	text-decoration: none;
+	cursor: pointer;
+	filter: alpha(opacity=80);
+	opacity: .8;
+}
+/* END modal-header close button settings */
+
 .modal-body #holder {
 	display:block;
-	height: 254px;
+	/* height: 254px; */
+		max-height: 100vh;
+		overflow-y: auto;
 	/* border: solid #900 2px; */
+		padding-right: 8px;
+		padding-left: 8px;
 }
 
 .modal-body #matchImg {
 	display:inline;
-	margin-right: 0;
+	/* margin-right: 0; */
+	margin-right: 6px;
+	    padding-right: 8px;
+
 }
 
 .modal-body #matchBio {
-	float: right;
+	/* float: right; */
+	float: left;
 	vertical-align: text-top;
 	display:inline;
 	color: #900;
 	margin-top: 0;
-	margin-right: 6px;
-	margin-left: 0;
-	width: 60%;
+		margin-right: 10px;
+	/* margin-left: 0; 
+	width: 60%; */
+		padding-left: 8px;
+		padding-right: 8px;
 }
 
 .modal-backdrop {
@@ -275,7 +306,51 @@ footer a:active {
 	border-color:#490604;
 	}
 
+/* ==========  Bootstrap 3 breakpoints  ========== */
+/* ==========  Mobile First Method  ========== */
 
+    /* Custom, iPhone Retina */ 
+    @media only screen and (min-width : 320px) {
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+
+@media screen and (max-width: 360px) {
+	@-ms-viewport {
+  		width: device-width;
+	}
+/*
+	.modal-body #matchBio {
+		float: none;
+		vertical-align: text-top;
+		display:block;
+		color: #900;
+		margin-top: 0;
+		margin-right: 6px;
+		margin-left: 0;
+		width: 60%;
+	} */
+}
 
 
 

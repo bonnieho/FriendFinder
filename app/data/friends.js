@@ -70,7 +70,7 @@ module.exports =
   "scores":[
     2, 4, 4, 1, 4, 2, 0, 0, 5, 4
     ],
-  "bio":"[Season 7]<br />patient<br />You will find yourself intrigued with your intoxicatingly toxic florist BFF; wanting to spend lots of quality time together possibly reminiscing about youthful indiscretions. Both of you are exceedingly patient and cunning and can look forward to swapping tales of weaving your own webs to get what you want. Steer clear of libations even as seemingly benign as a lovely cup of herbal tea though, as this new pal with a green thumb and a checkered past has a bad habit of poisoning those who fall out of favor with her."
+  "bio":"[Season 7]<br />You will find yourself intrigued with your intoxicatingly toxic florist BFF; wanting to spend lots of quality time together possibly reminiscing about youthful indiscretions. Both of you are exceedingly patient and cunning and can look forward to swapping tales of weaving your own webs to get what you want. Steer clear of libations even as seemingly benign as a lovely cup of herbal tea though, as this new pal with a green thumb and a checkered past has a bad habit of poisoning those who fall out of favor with her."
 },
 {
   "name":"Oliver Saxon (Daniel Vogel)",
@@ -78,7 +78,7 @@ module.exports =
   "scores":[
     4, 0, 0, 4, 4, 0, 0, 0, 4, 5
     ],
-  "bio":"[Season 8]<br />An urge to get even is the thread you have in common with your new 'Brain Surgeon' of a companion. If you have half a mind to meet up by the pool for a few brewskis, you will be wise to let him carry on about all of his mommy issues. Anyone with any gray matter left upstairs will be able to tell right away that this is the way to win this potential buddy's loyalty."
+  "bio":"[Season 8]<br />An urge to get even is the thread you have in common with your new 'Brain Surgeon' of a companion. If you have half a mind to meet up by the pool for a few brewskis (and maybe listen to some Mama Cass), you will be wise to let him carry on about all of his mommy issues. Anyone with any gray matter left upstairs will be able to tell right away that this is the way to win this potential buddy's loyalty."
 }
 	/*{
 	  "name":"Dexter Morgan",
