@@ -194,6 +194,9 @@ button.close{
 	width: 60%; */
 		padding-left: 4px;
 		padding-right: 8px;
+			max-height: 100vh;
+			overflow-y: auto;
+			overflow-x: auto;
 }
 
 .modal-backdrop {
@@ -352,6 +355,9 @@ footer a:active {
 		width: 60%; */
 			margin-top: 8px;
 			padding-top: 8px;
+			/* check this for making the horizontal scrollbar go away */
+				overflow-y: auto;
+				overflow-x: auto;
 	} 
 }
 
