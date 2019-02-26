@@ -168,16 +168,21 @@ button.close{
 	/* height: 254px; */
 		max-height: 100vh;
 		overflow-y: auto;
-			overflow-x: auto;
-	/* border: solid #900 2px; */
+			/* overflow-x: auto; */
+	border: solid #900 2px; 
 		padding-right: 8px;
 		padding-left: 8px;
+}
+
+.modal-body #matchName {
+	padding-left: 6px;
 }
 
 .modal-body #matchImg {
 	display:inline;
 	/* margin-right: 0; */
 	margin-right: 6px;
+	padding-left: 12px;
 	    padding-right: 8px;
 
 }
@@ -196,7 +201,7 @@ button.close{
 		padding-right: 8px;
 			max-height: 100vh;
 			overflow-y: auto;
-			overflow-x: auto;
+			/* overflow-x: auto; */
 }
 
 .modal-backdrop {
