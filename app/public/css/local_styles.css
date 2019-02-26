@@ -135,6 +135,7 @@ h2.modal-title {
 	max-height: 100vh;
 	overflow-y: auto;
 	/* border: 1px solid #000; */
+	padding-left: 10px;
 }
 
 #playerName {
@@ -168,22 +169,25 @@ button.close{
 	/* height: 254px; */
 		max-height: 100vh;
 		overflow-y: auto;
-			/* overflow-x: auto; */
-	border: solid #900 2px; 
+		/* overflow-x: auto; */
+	/* border: solid #900 2px;  */
+		margin-left: 12px;
+		margin-right: 12px;
 		padding-right: 8px;
-		padding-left: 8px;
+		/* padding-left: 8px; */
 }
 
 .modal-body #matchName {
-	padding-left: 6px;
+	padding-left: 10px;
 }
 
 .modal-body #matchImg {
 	display:inline;
 	/* margin-right: 0; */
 	margin-right: 6px;
-	padding-left: 12px;
-	    padding-right: 8px;
+	margin-bottom: 12px;
+	/* padding-left: 4px; */
+	padding-right: 8px;
 
 }
 
@@ -195,9 +199,7 @@ button.close{
 	color: #900;
 	margin-top: 0;
 		margin-right: 10px;
-	/* margin-left: 0; 
-	width: 60%; */
-		padding-left: 4px;
+		padding-left: 6px;
 		padding-right: 8px;
 			max-height: 100vh;
 			overflow-y: auto;
