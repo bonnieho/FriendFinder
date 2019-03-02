@@ -192,7 +192,6 @@ button.close{
 }
 
 .modal-body #matchBio {
-	/* float: right; */
 	float: left;
 	vertical-align: text-top;
 	display:inline;
