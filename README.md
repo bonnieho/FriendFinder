@@ -21,7 +21,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 ```
 .
 ├── app
-│   ├── data
+│   ├── data
 │   │   └── friends.js
 │   │	
 │   ├── public
@@ -39,18 +39,18 @@ In the interest of basing this exercise in the concept of a theme - for an added
 │       └── htmlRoutes.js
 │
 ├── assets
-│   └── images
+│   └── images
 │       └── (multiple images used in modal)
 │
 ├── node_modules
 │   └── (multiple module directories)
 │
 ├── package-lock.json
-│ 
+│ 
 ├── package.json
 │
 ├── screenshots
-│   └── (multiple images used in this README)
+│   └── (multiple images used in this README)
 │
 └── server.js
 
