@@ -71,6 +71,10 @@ button {
 	line-height: 1.25em;
 }
 
+.notshowing {
+	display: none;
+}
+
 .bigitalsmcaps {
 	/* Even better */
     font-family: 'Fjalla One', sans-serif; 
