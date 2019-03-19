@@ -61,6 +61,10 @@ legend {
 	display: none;
 }
 
+.question {
+	font-weight: bold;
+}
+
 .marg {
 	margin-bottom: 2em;
 }
