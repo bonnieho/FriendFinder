@@ -57,6 +57,10 @@ button {
 	margin-bottom: 4em;
 }
 
+legend {
+	display: none;
+}
+
 .marg {
 	margin-bottom: 2em;
 }
