@@ -61,6 +61,10 @@ legend {
 	display: none;
 }
 
+label .hideme {
+	display: none;	
+}
+
 .question {
 	font-weight: bold;
 }
