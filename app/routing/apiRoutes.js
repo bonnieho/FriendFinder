@@ -65,7 +65,8 @@ module.exports = function(app) {
   		var friendScores = friendData[i].scores;
   		var totalDifference = 0;
   		for (j=0; j<userScores.length; j++) {
-  			totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
+  			// totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
+        totalDifference += Math.abs((userScores[j]-friendScores[j])^2);
   		}
   		if (totalDifference<smallestDiff){ // keep comparing numbers based on smallest until you have run through all of the members in the friendData array
   			bff = friendData[i];
