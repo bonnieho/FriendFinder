@@ -152,7 +152,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
 Each user's results are converted into a simple array of numbers (ex: [5, 1, 4, 4, 5, 1, 2, 5, 4, 1]).
 
-With that array, the difference between current user's scores is compared against those from other users (the pre-populated 'friends'), question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
+With the original assignment, we were to calculate a difference between the current user's scores by comparing them against those from other users (in this case, the pre-populated 'friends'), question by question. Those differences (in absolute values) are added up to calculate the totalDifference.
 
 Example:
 
@@ -163,6 +163,8 @@ Example:
 ```
 
 The *closest* match will be the user with the **least** amount of difference.
+
+I found in testing the app, however, that this was not a very robust solution as it was quite possible to have more than one potential friend with an indentical 'low' score, and so only the *first* of multiple potential friends would ever be displayed! I consulted with a long-time programmer who suggested that I implement a 'least squares' approach to help widen the range of potential results. This helped me get closer to a desired outcome, although I was still not satisfied with the now reduced instance of wildly unlikely results.
 
 
 #### Resulting modal display:
