@@ -69,9 +69,9 @@ module.exports = function(app) {
         var numToUse = (userScores[j]-friendScores[j])^2
 
           // trying this:
-        if i=0 {
+        /* if i=0 {
           numToUse = numToUse*0.5;
-        }
+        } */
 
         // totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
         // totalDifference += Math.abs((userScores[j]-friendScores[j])^2);
