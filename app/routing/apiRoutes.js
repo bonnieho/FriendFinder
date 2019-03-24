@@ -75,13 +75,13 @@ module.exports = function(app) {
 
         switch (i) {
           case 0:
-            numToUse = ((userScores[0]-friendScores[0])^2)*0.5;;
+            numToUse = ((userScores[0]-friendScores[0])^2)*0.5;
             break;
           case 1:
             numToUse = ((userScores[1]-friendScores[1])^2)*0.5;
             break;
           case 2:
-             numToUse = ((userScores[2]-friendScores[2])^2)*0.5;
+            numToUse = ((userScores[2]-friendScores[2])^2)*0.5;
             break;
           case 3:
             numToUse = ((userScores[3]-friendScores[3])^2)*0.5;
