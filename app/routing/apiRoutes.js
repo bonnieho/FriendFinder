@@ -75,34 +75,34 @@ module.exports = function(app) {
 
         switch (i) {
           case 0:
-            numToUse = ((userScores[0]-friendScores[0])^3)*0.5;;
+            numToUse = ((userScores[0]-friendScores[0])^2)*0.5;;
             break;
           case 1:
-            numToUse = ((userScores[1]-friendScores[1])^3)*0.5;
+            numToUse = ((userScores[1]-friendScores[1])^2)*0.5;
             break;
           case 2:
-             numToUse = ((userScores[2]-friendScores[2])^3)*0.5;
+             numToUse = ((userScores[2]-friendScores[2])^2)*0.5;
             break;
           case 3:
-            numToUse = ((userScores[3]-friendScores[3])^3)*0.5;
+            numToUse = ((userScores[3]-friendScores[3])^2)*0.5;
             break;
           case 4:
-            numToUse = ((userScores[4]-friendScores[4])^3)*0.5;
+            numToUse = ((userScores[4]-friendScores[4])^2)*0.5;
             break;
           case 5:
-            numToUse = ((userScores[5]-friendScores[5])^3)*0.5;
+            numToUse = ((userScores[5]-friendScores[5])^2)*0.5;
             break;
           case 6:
-            numToUse = ((userScores[6]-friendScores[6])^3)*0.5;
+            numToUse = ((userScores[6]-friendScores[6])^2)*0.5;
             break;
           case 7:
-            numToUse = ((userScores[7]-friendScores[7])^3)*0.5;
+            numToUse = ((userScores[7]-friendScores[7])^2)*0.5;
             break;
           case 8:
-            numToUse = ((userScores[8]-friendScores[8])^3)*0.5;
+            numToUse = ((userScores[8]-friendScores[8])^2)*0.5;
             break;
           case 9:
-            numToUse = ((userScores[9]-friendScores[9])^3)*0.5;
+            numToUse = ((userScores[9]-friendScores[9])^2)*0.5;
         }
 
         // totalDifference += Math.abs(userScores[j]-friendScores[j]); // setting absolute value
