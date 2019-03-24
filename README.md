@@ -167,7 +167,7 @@ The *closest* match will be the user with the **least** amount of difference.
 
 ##### UPDATED algorithm:
 
-I found in testing the app, however, that this was not a very robust solution as it was quite possible to have more than one potential friend with an indentical 'low' score, and so only the *first* of multiple potential friends would ever be displayed! I consulted with a long-time programmer who suggested that I implement a 'least squares' approach to help widen the range of potential results. This helped me get closer to a desired outcome, although I was still not satisfied with the now reduced instance of wildly unlikely results, so I've been working on weighting specific answers that I've associated as particularily strong traits of each individual 'friend' in the original array.
+I found in testing the app, however, that this was not a very robust solution as it was quite possible to have *more than one* potential friend with an indentical 'low' score, and so only the *first* of multiple potential friends would ever be displayed! I consulted with a long-time programmer who suggested that I implement a '**least squares**' approach to help widen the range of potential results. This helped me get closer to a desired outcome, although I was still not satisfied with the now reduced instance of wildly unlikely results, so I've been working on **weighting** specific answers that I've associated as particularily strong traits of each individual 'friend' in the original array.
 
 
 #### Resulting modal display:
