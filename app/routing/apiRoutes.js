@@ -67,6 +67,7 @@ module.exports = function(app) {
   		for (j=0; j<userScores.length; j++) {
 
         var numToUse = (userScores[j]-friendScores[j])^2;
+        // should this be friendScores[i] ?
 
           // trying this:
         /* if i=0 {
