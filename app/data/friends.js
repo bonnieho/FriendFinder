@@ -6,7 +6,7 @@ module.exports =
   "scores":[
     5, 3, 5, 1, 5, 1, 0, 0, 5, 3
     ],
-  "bio":"[Seasons 1-8 (all)]<br />organized"
+  "bio":"[Seasons 1-8 (all)]<br />You must be organized, resourceful, and calculated to have landed our beloved protagonist as your new bestie. It can be safely assumed that you have a wickedly dry sense of humor to have an appreciation for someone with a persistent inner monologue with their 'Dark Passenger'."
 },
 {
   "name":"Deb Morgan",
