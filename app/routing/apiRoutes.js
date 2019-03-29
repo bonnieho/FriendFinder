@@ -66,7 +66,7 @@ module.exports = function(app) {
   		var totalDifference = 0;
   		for (j=0; j<userScores.length; j++) {
 
-        var numToUse = (userScores[j]-friendScores)^2;
+        var numToUse = (userScores[j]-friendScores[j])^2;
         // should this be friendScores[i] ?
 
           // trying this:
