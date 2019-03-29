@@ -113,6 +113,7 @@ module.exports = function(app) {
         totalDifference += Math.abs(numToUse); // setting absolute value
 
         console.log("The total difference with friend " + i + " is " + totalDifference);
+        console.log(friendData[i])
         console.log("UserScores[" + j + "]" + " minus friendScores[" + j + "]" );
   			
   		}
