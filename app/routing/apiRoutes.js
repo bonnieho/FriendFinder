@@ -113,6 +113,7 @@ module.exports = function(app) {
         totalDifference += Math.abs(numToUse); // setting absolute value
 
         console.log("The total difference with friend " + i + " is " + totalDifference);
+        console.log("UserScores[" + j + "]" + " minus friendScores[" + j + "]" );
   			
   		}
   		if (totalDifference<smallestDiff){ // keep comparing numbers based on smallest until you have run through all of the members in the friendData array
