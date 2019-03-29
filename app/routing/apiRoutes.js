@@ -74,7 +74,7 @@ module.exports = function(app) {
           numToUse = numToUse*0.5;
         } */
 
-/*
+/* change this to j??
         switch (i) {
           case 0:
             numToUse = ((userScores[0]-friendScores[0])^2)*0.5;
