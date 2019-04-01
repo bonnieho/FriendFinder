@@ -65,7 +65,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 
    * There is a **GET** route to `/survey` that calls and renders the 'survey' page.
 
-   * As well, there is a **default** (catch-all) route that leads to `home.html` (which displays the 'home' page).
+   * As well, there is a **default** (catch-all) route that leads to **home.html** (which displays the 'home' page).
 
 
    ```
