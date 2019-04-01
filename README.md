@@ -87,7 +87,7 @@ In the interest of basing this exercise in the concept of a theme - for an added
 	};
    ```
 
-* The **`apiRoutes.js`** file contains the following two routes:
+* The **apiRoutes.js** file contains the following two routes:
 
    * A **GET** route with the url `/api/friends` that is used to call a JSON object of all possible friends.
 
